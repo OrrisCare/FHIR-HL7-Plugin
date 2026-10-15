@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Administration"
+  short_description: "FHIR Administration guidance for agents"
+  default_prompt: "Use $fhir-administration to help with my FHIR task using the correct release and authoritative sources."

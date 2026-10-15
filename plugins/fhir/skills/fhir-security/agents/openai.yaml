@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Security and SMART"
+  short_description: "FHIR Security and SMART guidance for agents"
+  default_prompt: "Use $fhir-security to help with my FHIR task using the correct release and authoritative sources."

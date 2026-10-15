@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Orders and Workflow"
+  short_description: "FHIR Orders and Workflow guidance for agents"
+  default_prompt: "Use $fhir-workflow to help with my FHIR task using the correct release and authoritative sources."

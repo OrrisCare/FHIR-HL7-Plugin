@@ -1,0 +1,48 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "fhir",
+  "version": "1.0.0",
+  "description": "Version-aware HL7 FHIR implementation skills and an authoritative documentation index by Orris.",
+  "author": {
+    "name": "Orris Care, Inc."
+  },
+  "homepage": "https://github.com/OrrisCare/FHIR-HL7-Plugin",
+  "repository": "https://github.com/OrrisCare/FHIR-HL7-Plugin",
+  "license": "MIT",
+  "keywords": [
+    "fhir",
+    "hl7",
+    "healthcare",
+    "interoperability",
+    "r5",
+    "smart-on-fhir",
+    "profiles",
+    "terminology",
+    "implementation-guides"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "FHIR by Orris",
+        "shortDescription": "Build with HL7 FHIR standards",
+        "longDescription": "Version-aware HL7 FHIR guidance for agents building, editing, validating, auditing and refactoring interoperable health software. Includes 16 focused skills, routes for all 14 R5 modules, and searchable indexes of all R5 core-package artifacts and table-of-contents HTML targets. Covers data modeling, APIs, profiles, terminology, clinical domains, SMART/security, exchange, workflow, financial data, clinical reasoning, implementation guides and migrations. R5 is the checked published baseline; R4/R4B projects retain their contracts and R6 is an explicit preview. Reads authoritative documentation on demand. Independent Orris project; not affiliated with or endorsed by HL7. Does not provide clinical or regulatory certification.",
+        "developerName": "Orris Care, Inc.",
+        "category": "Developer Tools",
+        "capabilities": [
+          "FHIR standards navigation",
+          "FHIR implementation and review"
+        ],
+        "websiteURL": "https://github.com/OrrisCare/FHIR-HL7-Plugin",
+        "supportURL": "https://github.com/OrrisCare/FHIR-HL7-Plugin/issues",
+        "defaultPrompt": [
+          "Build a FHIR integration using the right release and implementation guide.",
+          "Review my FHIR API for interoperability problems.",
+          "Help me create and validate a FHIR profile."
+        ],
+        "brandColor": "#14675D",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}

@@ -1,0 +1,2918 @@
+[
+  {
+    "id": "Account",
+    "abstract": false,
+    "description": "A financial tool for tracking value accrued for a particular purpose.  In the healthcare field, used to track charges for a patient, cost centers, etc.",
+    "url": "https://hl7.org/fhir/R5/account.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Account",
+    "package_file": "StructureDefinition-Account.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "ActivityDefinition",
+    "abstract": false,
+    "description": "This resource allows for the definition of some activity to be performed, independent of a particular patient, practitioner, or other performance context.",
+    "url": "https://hl7.org/fhir/R5/activitydefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ActivityDefinition",
+    "package_file": "StructureDefinition-ActivityDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "ActorDefinition",
+    "abstract": false,
+    "description": "The ActorDefinition resource is used to describe an actor - a human or an application that plays a role in data exchange, and that may have obligations associated with the role the actor plays.",
+    "url": "https://hl7.org/fhir/R5/actordefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ActorDefinition",
+    "package_file": "StructureDefinition-ActorDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "AdministrableProductDefinition",
+    "abstract": false,
+    "description": "A medicinal product in the final form which is suitable for administering to a patient (after any mixing of multiple components, dissolution etc. has been performed).",
+    "url": "https://hl7.org/fhir/R5/administrableproductdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition",
+    "package_file": "StructureDefinition-AdministrableProductDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "AdverseEvent",
+    "abstract": false,
+    "description": "An event (i.e. any change to current patient status) that may be related to unintended effects on a patient or research participant. The unintended effects may require additional monitoring, treatment, hospitalization, or may result in death. The AdverseEvent resource also extends to potential or avoided events that could have had such effects. There are two major domains where the AdverseEvent resource is expected to be used. One is in clinical care reported adverse events and the other is in reporting adverse events in clinical  research trial management.  Adverse events can be reported by healthcare providers, patients, caregivers or by medical products manufacturers.  Given the differences between these two concepts, we recommend consulting the domain specific implementation guides when implementing the AdverseEvent Resource. The implementation guides include specific extensions, value sets and constraints.",
+    "url": "https://hl7.org/fhir/R5/adverseevent.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/AdverseEvent",
+    "package_file": "StructureDefinition-AdverseEvent.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "AllergyIntolerance",
+    "abstract": false,
+    "description": "Risk of harmful or undesirable, physiological response which is unique to an individual and associated with exposure to a substance.",
+    "url": "https://hl7.org/fhir/R5/allergyintolerance.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance",
+    "package_file": "StructureDefinition-AllergyIntolerance.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "Appointment",
+    "abstract": false,
+    "description": "A booking of a healthcare event among patient(s), practitioner(s), related person(s) and/or device(s) for a specific date/time. This may result in one or more Encounter(s).",
+    "url": "https://hl7.org/fhir/R5/appointment.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Appointment",
+    "package_file": "StructureDefinition-Appointment.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "AppointmentResponse",
+    "abstract": false,
+    "description": "A reply to an appointment request for a patient and/or practitioner(s), such as a confirmation or rejection.",
+    "url": "https://hl7.org/fhir/R5/appointmentresponse.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/AppointmentResponse",
+    "package_file": "StructureDefinition-AppointmentResponse.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "ArtifactAssessment",
+    "abstract": false,
+    "description": "This Resource provides one or more comments, classifiers or ratings about a Resource and supports attribution and rights management metadata for the added content.",
+    "url": "https://hl7.org/fhir/R5/artifactassessment.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ArtifactAssessment",
+    "package_file": "StructureDefinition-ArtifactAssessment.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "AuditEvent",
+    "abstract": false,
+    "description": "A record of an event relevant for purposes such as operations, privacy, security, maintenance, and performance analysis.",
+    "url": "https://hl7.org/fhir/R5/auditevent.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/AuditEvent",
+    "package_file": "StructureDefinition-AuditEvent.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Basic",
+    "abstract": false,
+    "description": "Basic is used for handling concepts not yet defined in FHIR, narrative-only resources that don't map to an existing resource, and custom resources not appropriate for inclusion in the FHIR specification.",
+    "url": "https://hl7.org/fhir/R5/basic.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Basic",
+    "package_file": "StructureDefinition-Basic.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "Binary",
+    "abstract": false,
+    "description": "A resource that represents the data of a single raw artifact as digital content accessible in its native format.  A Binary resource can contain any content, whether text, image, pdf, zip archive, etc.",
+    "url": "https://hl7.org/fhir/R5/binary.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Binary",
+    "package_file": "StructureDefinition-Binary.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "BiologicallyDerivedProduct",
+    "abstract": false,
+    "description": "A biological material originating from a biological entity intended to be transplanted or infused into another (possibly the same) biological entity.",
+    "url": "https://hl7.org/fhir/R5/biologicallyderivedproduct.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct",
+    "package_file": "StructureDefinition-BiologicallyDerivedProduct.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "BiologicallyDerivedProductDispense",
+    "abstract": false,
+    "description": "A record of dispensation of a biologically derived product.",
+    "url": "https://hl7.org/fhir/R5/biologicallyderivedproductdispense.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProductDispense",
+    "package_file": "StructureDefinition-BiologicallyDerivedProductDispense.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "draft"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "BodyStructure",
+    "abstract": false,
+    "description": "Record details about an anatomical structure.  This resource may be used when a coded concept does not provide the necessary detail needed for the use case.",
+    "url": "https://hl7.org/fhir/R5/bodystructure.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/BodyStructure",
+    "package_file": "StructureDefinition-BodyStructure.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "Bundle",
+    "abstract": false,
+    "description": "A container for a collection of resources.",
+    "url": "https://hl7.org/fhir/R5/bundle.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Bundle",
+    "package_file": "StructureDefinition-Bundle.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "CanonicalResource",
+    "abstract": true,
+    "description": "Common Interface declaration for conformance and knowledge artifact resources.",
+    "url": "https://hl7.org/fhir/R5/canonicalresource.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CanonicalResource",
+    "package_file": "StructureDefinition-CanonicalResource.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "CapabilityStatement",
+    "abstract": false,
+    "description": "A Capability Statement documents a set of capabilities (behaviors) of a FHIR Server or Client for a particular version of FHIR that may be used as a statement of actual server functionality or a statement of required or desired server implementation.",
+    "url": "https://hl7.org/fhir/R5/capabilitystatement.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CapabilityStatement",
+    "package_file": "StructureDefinition-CapabilityStatement.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "CarePlan",
+    "abstract": false,
+    "description": "Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions.",
+    "url": "https://hl7.org/fhir/R5/careplan.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CarePlan",
+    "package_file": "StructureDefinition-CarePlan.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "CareTeam",
+    "abstract": false,
+    "description": "The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care.",
+    "url": "https://hl7.org/fhir/R5/careteam.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CareTeam",
+    "package_file": "StructureDefinition-CareTeam.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "ChargeItem",
+    "abstract": false,
+    "description": "The resource ChargeItem describes the provision of healthcare provider products for a certain patient, therefore referring not only to the product, but containing in addition details of the provision, like date, time, amounts and participating organizations and persons. Main Usage of the ChargeItem is to enable the billing process and internal cost allocation.",
+    "url": "https://hl7.org/fhir/R5/chargeitem.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ChargeItem",
+    "package_file": "StructureDefinition-ChargeItem.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ChargeItemDefinition",
+    "abstract": false,
+    "description": "The ChargeItemDefinition resource provides the properties that apply to the (billing) codes necessary to calculate costs and prices. The properties may differ largely depending on type and realm, therefore this resource gives only a rough structure and requires profiling for each type of billing code system.",
+    "url": "https://hl7.org/fhir/R5/chargeitemdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition",
+    "package_file": "StructureDefinition-ChargeItemDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "Citation",
+    "abstract": false,
+    "description": "The Citation Resource enables reference to any knowledge artifact for purposes of identification and attribution. The Citation Resource supports existing reference structures and developing publication practices such as versioning, expressing complex contributorship roles, and referencing computable resources.",
+    "url": "https://hl7.org/fhir/R5/citation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Citation",
+    "package_file": "StructureDefinition-Citation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "Claim",
+    "abstract": false,
+    "description": "A provider issued list of professional services and products which have been provided, or are to be provided, to a patient which is sent to an insurer for reimbursement.",
+    "url": "https://hl7.org/fhir/R5/claim.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Claim",
+    "package_file": "StructureDefinition-Claim.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "ClaimResponse",
+    "abstract": false,
+    "description": "This resource provides the adjudication details from the processing of a Claim resource.",
+    "url": "https://hl7.org/fhir/R5/claimresponse.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ClaimResponse",
+    "package_file": "StructureDefinition-ClaimResponse.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "ClinicalImpression",
+    "abstract": false,
+    "description": "A record of a clinical assessment performed to determine what problem(s) may affect the patient and before planning the treatments or management strategies that are best to manage a patient's condition. Assessments are often 1:1 with a clinical consultation / encounter,  but this varies greatly depending on the clinical workflow. This resource is called \"ClinicalImpression\" rather than \"ClinicalAssessment\" to avoid confusion with the recording of assessment tools such as Apgar score.",
+    "url": "https://hl7.org/fhir/R5/clinicalimpression.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ClinicalImpression",
+    "package_file": "StructureDefinition-ClinicalImpression.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ClinicalUseDefinition",
+    "abstract": false,
+    "description": "A single issue - either an indication, contraindication, interaction or an undesirable effect for a medicinal product, medication, device or procedure.",
+    "url": "https://hl7.org/fhir/R5/clinicalusedefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition",
+    "package_file": "StructureDefinition-ClinicalUseDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "CodeSystem",
+    "abstract": false,
+    "description": "The CodeSystem resource is used to declare the existence of and describe a code system or code system supplement and its key properties, and optionally define a part or all of its content.",
+    "url": "https://hl7.org/fhir/R5/codesystem.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CodeSystem",
+    "package_file": "StructureDefinition-CodeSystem.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "Communication",
+    "abstract": false,
+    "description": "A clinical or business level record of information being transmitted or shared; e.g. an alert that was sent to a responsible provider, a public health agency communication to a provider/reporter in response to a case report for a reportable condition.",
+    "url": "https://hl7.org/fhir/R5/communication.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Communication",
+    "package_file": "StructureDefinition-Communication.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "CommunicationRequest",
+    "abstract": false,
+    "description": "A request to convey information; e.g. the CDS system proposes that an alert be sent to a responsible provider, the CDS system proposes that the public health agency be notified about a reportable condition.",
+    "url": "https://hl7.org/fhir/R5/communicationrequest.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CommunicationRequest",
+    "package_file": "StructureDefinition-CommunicationRequest.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "CompartmentDefinition",
+    "abstract": false,
+    "description": "A compartment definition that defines how resources are accessed on a server.",
+    "url": "https://hl7.org/fhir/R5/compartmentdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CompartmentDefinition",
+    "package_file": "StructureDefinition-CompartmentDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "Composition",
+    "abstract": false,
+    "description": "A set of healthcare-related information that is assembled together into a single logical package that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. A Composition defines the structure and narrative content necessary for a document. However, a Composition alone does not constitute a document. Rather, the Composition must be the first entry in a Bundle where Bundle.type=document, and any other resources referenced from Composition must be included as subsequent entries in the Bundle (for example Patient, Practitioner, Encounter, etc.).",
+    "url": "https://hl7.org/fhir/R5/composition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Composition",
+    "package_file": "StructureDefinition-Composition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "ConceptMap",
+    "abstract": false,
+    "description": "A statement of relationships from one set of concepts to one or more other concepts - either concepts in code systems, or data element/data element concepts, or classes in class models.",
+    "url": "https://hl7.org/fhir/R5/conceptmap.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ConceptMap",
+    "package_file": "StructureDefinition-ConceptMap.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "Condition",
+    "abstract": false,
+    "description": "A clinical condition, problem, diagnosis, or other event, situation, issue, or clinical concept that has risen to a level of concern.",
+    "url": "https://hl7.org/fhir/R5/condition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Condition",
+    "package_file": "StructureDefinition-Condition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "ConditionDefinition",
+    "abstract": false,
+    "description": "A definition of a condition and information relevant to managing it.",
+    "url": "https://hl7.org/fhir/R5/conditiondefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ConditionDefinition",
+    "package_file": "StructureDefinition-ConditionDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Consent",
+    "abstract": false,
+    "description": "A record of a healthcare consumer’s  choices  or choices made on their behalf by a third party, which permits or denies identified recipient(s) or recipient role(s) to perform one or more actions within a given policy context, for specific purposes and periods of time.",
+    "url": "https://hl7.org/fhir/R5/consent.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Consent",
+    "package_file": "StructureDefinition-Consent.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Contract",
+    "abstract": false,
+    "description": "Legally enforceable, formally recorded unilateral or bilateral directive i.e., a policy or agreement.",
+    "url": "https://hl7.org/fhir/R5/contract.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Contract",
+    "package_file": "StructureDefinition-Contract.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "Coverage",
+    "abstract": false,
+    "description": "Financial instrument which may be used to reimburse or pay for health care products and services. Includes both insurance and self-payment.",
+    "url": "https://hl7.org/fhir/R5/coverage.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Coverage",
+    "package_file": "StructureDefinition-Coverage.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "CoverageEligibilityRequest",
+    "abstract": false,
+    "description": "The CoverageEligibilityRequest provides patient and insurance coverage information to an insurer for them to respond, in the form of an CoverageEligibilityResponse, with information regarding whether the stated coverage is valid and in-force and optionally to provide the insurance details of the policy.",
+    "url": "https://hl7.org/fhir/R5/coverageeligibilityrequest.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest",
+    "package_file": "StructureDefinition-CoverageEligibilityRequest.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "CoverageEligibilityResponse",
+    "abstract": false,
+    "description": "This resource provides eligibility and plan details from the processing of an CoverageEligibilityRequest resource.",
+    "url": "https://hl7.org/fhir/R5/coverageeligibilityresponse.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse",
+    "package_file": "StructureDefinition-CoverageEligibilityResponse.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "DetectedIssue",
+    "abstract": false,
+    "description": "Indicates an actual or potential clinical issue with or between one or more active or proposed clinical actions for a patient; e.g. Drug-drug interaction, Ineffective treatment frequency, Procedure-condition conflict, gaps in care, etc.",
+    "url": "https://hl7.org/fhir/R5/detectedissue.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DetectedIssue",
+    "package_file": "StructureDefinition-DetectedIssue.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Device",
+    "abstract": false,
+    "description": "This resource describes the properties (regulated, has real time clock, etc.), adminstrative (manufacturer name, model number, serial number, firmware, etc.), and type (knee replacement, blood pressure cuff, MRI, etc.) of a physical unit (these values do not change much within a given module, for example the serail number, manufacturer name, and model number). An actual unit may consist of several modules in a distinct hierarchy and these are represented by multiple Device resources and bound through the 'parent' element.",
+    "url": "https://hl7.org/fhir/R5/device.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Device",
+    "package_file": "StructureDefinition-Device.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "DeviceAssociation",
+    "abstract": false,
+    "description": "A record of association of a device.",
+    "url": "https://hl7.org/fhir/R5/deviceassociation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DeviceAssociation",
+    "package_file": "StructureDefinition-DeviceAssociation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "draft"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "DeviceDefinition",
+    "abstract": false,
+    "description": "This is a specialized resource that defines the characteristics and capabilities of a device.",
+    "url": "https://hl7.org/fhir/R5/devicedefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DeviceDefinition",
+    "package_file": "StructureDefinition-DeviceDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "DeviceDispense",
+    "abstract": false,
+    "description": "Indicates that a device is to be or has been dispensed for a named person/patient.  This includes a description of the product (supply) provided and the instructions for using the device.",
+    "url": "https://hl7.org/fhir/R5/devicedispense.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DeviceDispense",
+    "package_file": "StructureDefinition-DeviceDispense.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "DeviceMetric",
+    "abstract": false,
+    "description": "Describes a measurement, calculation or setting capability of a device.  The DeviceMetric resource is derived from the ISO/IEEE 11073-10201 Domain Information Model standard, but is more widely applicable. ",
+    "url": "https://hl7.org/fhir/R5/devicemetric.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DeviceMetric",
+    "package_file": "StructureDefinition-DeviceMetric.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "DeviceRequest",
+    "abstract": false,
+    "description": "Represents a request a device to be provided to a specific patient. The device may be an implantable device to be subsequently implanted, or an external assistive device, such as a walker, to be delivered and subsequently be used.",
+    "url": "https://hl7.org/fhir/R5/devicerequest.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DeviceRequest",
+    "package_file": "StructureDefinition-DeviceRequest.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "DeviceUsage",
+    "abstract": false,
+    "description": "A record of a device being used by a patient where the record is the result of a report from the patient or a clinician.",
+    "url": "https://hl7.org/fhir/R5/deviceusage.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DeviceUsage",
+    "package_file": "StructureDefinition-DeviceUsage.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "DiagnosticReport",
+    "abstract": false,
+    "description": "The findings and interpretation of diagnostic tests performed on patients, groups of patients, products, substances, devices, and locations, and/or specimens derived from these. The report includes clinical context such as requesting provider information, and some mix of atomic results, images, textual and coded interpretations, and formatted representation of diagnostic reports. The report also includes non-clinical context such as batch analysis and stability reporting of products and substances.",
+    "url": "https://hl7.org/fhir/R5/diagnosticreport.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport",
+    "package_file": "StructureDefinition-DiagnosticReport.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "DocumentReference",
+    "abstract": false,
+    "description": "A reference to a document of any kind for any purpose. While the term “document” implies a more narrow focus, for this resource this “document” encompasses *any* serialized object with a mime-type, it includes formal patient-centric documents (CDA), clinical notes, scanned paper, non-patient specific documents like policy text, as well as a photo, video, or audio recording acquired or used in healthcare.  The DocumentReference resource provides metadata about the document so that the document can be discovered and managed.  The actual content may be inline base64 encoded data or provided by direct reference.",
+    "url": "https://hl7.org/fhir/R5/documentreference.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+    "package_file": "StructureDefinition-DocumentReference.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "DomainResource",
+    "abstract": true,
+    "description": "A resource that includes narrative, extensions, and contained resources.",
+    "url": "https://hl7.org/fhir/R5/domainresource.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+    "package_file": "StructureDefinition-DomainResource.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "Encounter",
+    "abstract": false,
+    "description": "An interaction between healthcare provider(s), and/or patient(s) for the purpose of providing healthcare service(s) or assessing the health status of patient(s).",
+    "url": "https://hl7.org/fhir/R5/encounter.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Encounter",
+    "package_file": "StructureDefinition-Encounter.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "EncounterHistory",
+    "abstract": false,
+    "description": "A record of significant events/milestones key data throughout the history of an Encounter",
+    "url": "https://hl7.org/fhir/R5/encounterhistory.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/EncounterHistory",
+    "package_file": "StructureDefinition-EncounterHistory.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Endpoint",
+    "abstract": false,
+    "description": "The technical details of an endpoint that can be used for electronic services, such as for web services providing XDS.b, a REST endpoint for another FHIR server, or a s/Mime email address. This may include any security context information.",
+    "url": "https://hl7.org/fhir/R5/endpoint.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Endpoint",
+    "package_file": "StructureDefinition-Endpoint.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "EnrollmentRequest",
+    "abstract": false,
+    "description": "This resource provides the insurance enrollment details to the insurer regarding a specified coverage.",
+    "url": "https://hl7.org/fhir/R5/enrollmentrequest.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest",
+    "package_file": "StructureDefinition-EnrollmentRequest.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "EnrollmentResponse",
+    "abstract": false,
+    "description": "This resource provides enrollment and plan details from the processing of an EnrollmentRequest resource.",
+    "url": "https://hl7.org/fhir/R5/enrollmentresponse.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/EnrollmentResponse",
+    "package_file": "StructureDefinition-EnrollmentResponse.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "EpisodeOfCare",
+    "abstract": false,
+    "description": "An association between a patient and an organization / healthcare provider(s) during which time encounters may occur. The managing organization assumes a level of responsibility for the patient during this time.",
+    "url": "https://hl7.org/fhir/R5/episodeofcare.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare",
+    "package_file": "StructureDefinition-EpisodeOfCare.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "EventDefinition",
+    "abstract": false,
+    "description": "The EventDefinition resource provides a reusable description of when a particular event can occur.",
+    "url": "https://hl7.org/fhir/R5/eventdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/EventDefinition",
+    "package_file": "StructureDefinition-EventDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Evidence",
+    "abstract": false,
+    "description": "The Evidence Resource provides a machine-interpretable expression of an evidence concept including the evidence variables (e.g., population, exposures/interventions, comparators, outcomes, measured variables, confounding variables), the statistics, and the certainty of this evidence.",
+    "url": "https://hl7.org/fhir/R5/evidence.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Evidence",
+    "package_file": "StructureDefinition-Evidence.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "EvidenceReport",
+    "abstract": false,
+    "description": "The EvidenceReport Resource is a specialized container for a collection of resources and codeable concepts, adapted to support compositions of Evidence, EvidenceVariable, and Citation resources and related concepts.",
+    "url": "https://hl7.org/fhir/R5/evidencereport.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/EvidenceReport",
+    "package_file": "StructureDefinition-EvidenceReport.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "EvidenceVariable",
+    "abstract": false,
+    "description": "The EvidenceVariable resource describes an element that knowledge (Evidence) is about.",
+    "url": "https://hl7.org/fhir/R5/evidencevariable.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/EvidenceVariable",
+    "package_file": "StructureDefinition-EvidenceVariable.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ExampleScenario",
+    "abstract": false,
+    "description": "A walkthrough of a workflow showing the interaction between systems and the instances shared, possibly including the evolution of instances over time.",
+    "url": "https://hl7.org/fhir/R5/examplescenario.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ExampleScenario",
+    "package_file": "StructureDefinition-ExampleScenario.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ExplanationOfBenefit",
+    "abstract": false,
+    "description": "This resource provides: the claim details; adjudication details from the processing of a Claim; and optionally account balance information, for informing the subscriber of the benefits provided.",
+    "url": "https://hl7.org/fhir/R5/explanationofbenefit.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit",
+    "package_file": "StructureDefinition-ExplanationOfBenefit.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "FamilyMemberHistory",
+    "abstract": false,
+    "description": "Significant health conditions for a person related to the patient relevant in the context of care for the patient.",
+    "url": "https://hl7.org/fhir/R5/familymemberhistory.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory",
+    "package_file": "StructureDefinition-FamilyMemberHistory.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Flag",
+    "abstract": false,
+    "description": "Prospective warnings of potential issues when providing care to the patient.",
+    "url": "https://hl7.org/fhir/R5/flag.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Flag",
+    "package_file": "StructureDefinition-Flag.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "FormularyItem",
+    "abstract": false,
+    "description": "This resource describes a product or service that is available through a program and includes the conditions and constraints of availability.  All of the information in this resource is specific to the inclusion of the item in the formulary and is not inherent to the item itself.",
+    "url": "https://hl7.org/fhir/R5/formularyitem.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/FormularyItem",
+    "package_file": "StructureDefinition-FormularyItem.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "GenomicStudy",
+    "abstract": false,
+    "description": "A set of analyses performed to analyze and generate genomic data.",
+    "url": "https://hl7.org/fhir/R5/genomicstudy.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/GenomicStudy",
+    "package_file": "StructureDefinition-GenomicStudy.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Goal",
+    "abstract": false,
+    "description": "Describes the intended objective(s) for a patient, group or organization care, for example, weight loss, restoring an activity of daily living, obtaining herd immunity via immunization, meeting a process improvement objective, etc.",
+    "url": "https://hl7.org/fhir/R5/goal.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Goal",
+    "package_file": "StructureDefinition-Goal.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "GraphDefinition",
+    "abstract": false,
+    "description": "A formal computable definition of a graph of resources - that is, a coherent set of resources that form a graph by following references. The Graph Definition resource defines a set and makes rules about the set.",
+    "url": "https://hl7.org/fhir/R5/graphdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/GraphDefinition",
+    "package_file": "StructureDefinition-GraphDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Group",
+    "abstract": false,
+    "description": "Represents a defined collection of entities that may be discussed or acted upon collectively but which are not expected to act collectively, and are not formally or legally recognized; i.e. a collection of entities that isn't an Organization.",
+    "url": "https://hl7.org/fhir/R5/group.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Group",
+    "package_file": "StructureDefinition-Group.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "GuidanceResponse",
+    "abstract": false,
+    "description": "A guidance response is the formal response to a guidance request, including any output parameters returned by the evaluation, as well as the description of any proposed actions to be taken.",
+    "url": "https://hl7.org/fhir/R5/guidanceresponse.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/GuidanceResponse",
+    "package_file": "StructureDefinition-GuidanceResponse.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "HealthcareService",
+    "abstract": false,
+    "description": "The details of a healthcare service available at a location or in a catalog.  In the case where there is a hierarchy of services (for example, Lab -> Pathology -> Wound Cultures), this can be represented using a set of linked HealthcareServices.",
+    "url": "https://hl7.org/fhir/R5/healthcareservice.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/HealthcareService",
+    "package_file": "StructureDefinition-HealthcareService.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "ImagingSelection",
+    "abstract": false,
+    "description": "A selection of DICOM SOP instances and/or frames within a single Study and Series. This might include additional specifics such as an image region, an Observation UID or a Segmentation Number, allowing linkage to an Observation Resource or transferring this information along with the ImagingStudy Resource.",
+    "url": "https://hl7.org/fhir/R5/imagingselection.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ImagingSelection",
+    "package_file": "StructureDefinition-ImagingSelection.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ImagingStudy",
+    "abstract": false,
+    "description": "Representation of the content produced in a DICOM imaging study. A study comprises a set of series, each of which includes a set of Service-Object Pair Instances (SOP Instances - images or other data) acquired or produced in a common context.  A series is of only one modality (e.g. X-ray, CT, MR, ultrasound), but a study may have multiple series of different modalities.",
+    "url": "https://hl7.org/fhir/R5/imagingstudy.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ImagingStudy",
+    "package_file": "StructureDefinition-ImagingStudy.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Immunization",
+    "abstract": false,
+    "description": "Describes the event of a patient being administered a vaccine or a record of an immunization as reported by a patient, a clinician or another party.",
+    "url": "https://hl7.org/fhir/R5/immunization.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Immunization",
+    "package_file": "StructureDefinition-Immunization.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "ImmunizationEvaluation",
+    "abstract": false,
+    "description": "Describes a comparison of an immunization event against published recommendations to determine if the administration is \"valid\" in relation to those  recommendations.",
+    "url": "https://hl7.org/fhir/R5/immunizationevaluation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation",
+    "package_file": "StructureDefinition-ImmunizationEvaluation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ImmunizationRecommendation",
+    "abstract": false,
+    "description": "A patient's point-in-time set of recommendations (i.e. forecasting) according to a published schedule with optional supporting justification.",
+    "url": "https://hl7.org/fhir/R5/immunizationrecommendation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation",
+    "package_file": "StructureDefinition-ImmunizationRecommendation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ImplementationGuide",
+    "abstract": false,
+    "description": "A set of rules of how a particular interoperability or standards problem is solved - typically through the use of FHIR resources. This resource is used to gather all the parts of an implementation guide into a logical whole and to publish a computable definition of all the parts.",
+    "url": "https://hl7.org/fhir/R5/implementationguide.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ImplementationGuide",
+    "package_file": "StructureDefinition-ImplementationGuide.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Ingredient",
+    "abstract": false,
+    "description": "An ingredient of a manufactured item or pharmaceutical product.",
+    "url": "https://hl7.org/fhir/R5/ingredient.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Ingredient",
+    "package_file": "StructureDefinition-Ingredient.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "InsurancePlan",
+    "abstract": false,
+    "description": "Details of a Health Insurance product/plan provided by an organization.",
+    "url": "https://hl7.org/fhir/R5/insuranceplan.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/InsurancePlan",
+    "package_file": "StructureDefinition-InsurancePlan.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "InventoryItem",
+    "abstract": false,
+    "description": "functional description of an inventory item used in inventory and supply-related workflows.",
+    "url": "https://hl7.org/fhir/R5/inventoryitem.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/InventoryItem",
+    "package_file": "StructureDefinition-InventoryItem.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "draft"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "InventoryReport",
+    "abstract": false,
+    "description": "A report of inventory or stock items.",
+    "url": "https://hl7.org/fhir/R5/inventoryreport.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/InventoryReport",
+    "package_file": "StructureDefinition-InventoryReport.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Invoice",
+    "abstract": false,
+    "description": "Invoice containing collected ChargeItems from an Account with calculated individual and total price for Billing purpose.",
+    "url": "https://hl7.org/fhir/R5/invoice.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Invoice",
+    "package_file": "StructureDefinition-Invoice.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Library",
+    "abstract": false,
+    "description": "The Library resource is a general-purpose container for knowledge asset definitions. It can be used to describe and expose existing knowledge assets such as logic libraries and information model descriptions, as well as to describe a collection of knowledge assets.",
+    "url": "https://hl7.org/fhir/R5/library.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Library",
+    "package_file": "StructureDefinition-Library.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Linkage",
+    "abstract": false,
+    "description": "Identifies two or more records (resource instances) that refer to the same real-world \"occurrence\".",
+    "url": "https://hl7.org/fhir/R5/linkage.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Linkage",
+    "package_file": "StructureDefinition-Linkage.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "List",
+    "abstract": false,
+    "description": "A List is a curated collection of resources, for things such as problem lists, allergy lists, facility list, organization list, etc.",
+    "url": "https://hl7.org/fhir/R5/list.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/List",
+    "package_file": "StructureDefinition-List.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Location",
+    "abstract": false,
+    "description": "Details and position information for a place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+    "url": "https://hl7.org/fhir/R5/location.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Location",
+    "package_file": "StructureDefinition-Location.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "ManufacturedItemDefinition",
+    "abstract": false,
+    "description": "The definition and characteristics of a medicinal manufactured item, such as a tablet or capsule, as contained in a packaged medicinal product.",
+    "url": "https://hl7.org/fhir/R5/manufactureditemdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition",
+    "package_file": "StructureDefinition-ManufacturedItemDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Measure",
+    "abstract": false,
+    "description": "The Measure resource provides the definition of a quality measure.",
+    "url": "https://hl7.org/fhir/R5/measure.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Measure",
+    "package_file": "StructureDefinition-Measure.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "MeasureReport",
+    "abstract": false,
+    "description": "The MeasureReport resource contains the results of the calculation of a measure; and optionally a reference to the resources involved in that calculation.",
+    "url": "https://hl7.org/fhir/R5/measurereport.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MeasureReport",
+    "package_file": "StructureDefinition-MeasureReport.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Medication",
+    "abstract": false,
+    "description": "This resource is primarily used for the identification and definition of a medication, including ingredients, for the purposes of prescribing, dispensing, and administering a medication as well as for making statements about medication use.",
+    "url": "https://hl7.org/fhir/R5/medication.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Medication",
+    "package_file": "StructureDefinition-Medication.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "MedicationAdministration",
+    "abstract": false,
+    "description": "Describes the event of a patient consuming or otherwise being administered a medication.  This may be as simple as swallowing a tablet or it may be a long running infusion. Related resources tie this event to the authorizing prescription, and the specific encounter between patient and health care practitioner. This event can also be used to record waste using a status of not-done and the appropriate statusReason.",
+    "url": "https://hl7.org/fhir/R5/medicationadministration.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MedicationAdministration",
+    "package_file": "StructureDefinition-MedicationAdministration.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "MedicationDispense",
+    "abstract": false,
+    "description": "Indicates that a medication product is to be or has been dispensed for a named person/patient.  This includes a description of the medication product (supply) provided and the instructions for administering the medication.  The medication dispense is the result of a pharmacy system responding to a medication order.",
+    "url": "https://hl7.org/fhir/R5/medicationdispense.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MedicationDispense",
+    "package_file": "StructureDefinition-MedicationDispense.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "MedicationKnowledge",
+    "abstract": false,
+    "description": "Information about a medication that is used to support knowledge.",
+    "url": "https://hl7.org/fhir/R5/medicationknowledge.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge",
+    "package_file": "StructureDefinition-MedicationKnowledge.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "MedicationRequest",
+    "abstract": false,
+    "description": "An order or request for both supply of the medication and the instructions for administration of the medication to a patient. The resource is called \"MedicationRequest\" rather than \"MedicationPrescription\" or \"MedicationOrder\" to generalize the use across inpatient and outpatient settings, including care plans, etc., and to harmonize with workflow patterns.",
+    "url": "https://hl7.org/fhir/R5/medicationrequest.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+    "package_file": "StructureDefinition-MedicationRequest.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "MedicationStatement",
+    "abstract": false,
+    "description": "A record of a medication that is being consumed by a patient.   A MedicationStatement may indicate that the patient may be taking the medication now or has taken the medication in the past or will be taking the medication in the future.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay.   The medication information may come from sources such as the patient's memory, from a prescription bottle,  or from a list of medications the patient, clinician or other party maintains. \n\nThe primary difference between a medicationstatement and a medicationadministration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medicationstatement is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the Medication Statement information may come from the patient's memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information.",
+    "url": "https://hl7.org/fhir/R5/medicationstatement.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+    "package_file": "StructureDefinition-MedicationStatement.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "MedicinalProductDefinition",
+    "abstract": false,
+    "description": "Detailed definition of a medicinal product, typically for uses other than direct patient care (e.g. regulatory use, drug catalogs, to support prescribing, adverse events management etc.).",
+    "url": "https://hl7.org/fhir/R5/medicinalproductdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition",
+    "package_file": "StructureDefinition-MedicinalProductDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "MessageDefinition",
+    "abstract": false,
+    "description": "Defines the characteristics of a message that can be shared between systems, including the type of event that initiates the message, the content to be transmitted and what response(s), if any, are permitted.",
+    "url": "https://hl7.org/fhir/R5/messagedefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MessageDefinition",
+    "package_file": "StructureDefinition-MessageDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "MessageHeader",
+    "abstract": false,
+    "description": "The header for a message exchange that is either requesting or responding to an action.  The reference(s) that are the subject of the action as well as other information related to the action are typically transmitted in a bundle in which the MessageHeader resource instance is the first resource in the bundle.",
+    "url": "https://hl7.org/fhir/R5/messageheader.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MessageHeader",
+    "package_file": "StructureDefinition-MessageHeader.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "MetadataResource",
+    "abstract": true,
+    "description": "Common Interface declaration for conformance and knowledge artifact resources.",
+    "url": "https://hl7.org/fhir/R5/metadataresource.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MetadataResource",
+    "package_file": "StructureDefinition-MetadataResource.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "MolecularSequence",
+    "abstract": false,
+    "description": "Representation of a molecular sequence.",
+    "url": "https://hl7.org/fhir/R5/molecularsequence.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/MolecularSequence",
+    "package_file": "StructureDefinition-MolecularSequence.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "NamingSystem",
+    "abstract": false,
+    "description": "A curated namespace that issues unique symbols within that namespace for the identification of concepts, people, devices, etc.  Represents a \"System\" used within the Identifier and Coding data types.",
+    "url": "https://hl7.org/fhir/R5/namingsystem.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/NamingSystem",
+    "package_file": "StructureDefinition-NamingSystem.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "NutritionIntake",
+    "abstract": false,
+    "description": "A record of food or fluid that is being consumed by a patient.  A NutritionIntake may indicate that the patient may be consuming the food or fluid now or has consumed the food or fluid in the past.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay or through an app that tracks food or fluids consumed.   The consumption information may come from sources such as the patient's memory, from a nutrition label,  or from a clinician documenting observed intake.",
+    "url": "https://hl7.org/fhir/R5/nutritionintake.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/NutritionIntake",
+    "package_file": "StructureDefinition-NutritionIntake.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "NutritionOrder",
+    "abstract": false,
+    "description": "A request to supply a diet, formula feeding (enteral) or oral nutritional supplement to a patient/resident.",
+    "url": "https://hl7.org/fhir/R5/nutritionorder.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/NutritionOrder",
+    "package_file": "StructureDefinition-NutritionOrder.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "NutritionProduct",
+    "abstract": false,
+    "description": "A food or supplement that is consumed by patients.",
+    "url": "https://hl7.org/fhir/R5/nutritionproduct.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/NutritionProduct",
+    "package_file": "StructureDefinition-NutritionProduct.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "Observation",
+    "abstract": false,
+    "description": "Measurements and simple assertions made about a patient, device or other subject.",
+    "url": "https://hl7.org/fhir/R5/observation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Observation",
+    "package_file": "StructureDefinition-Observation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "ObservationDefinition",
+    "abstract": false,
+    "description": "Set of definitional characteristics for a kind of observation or measurement produced or consumed by an orderable health care service.",
+    "url": "https://hl7.org/fhir/R5/observationdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ObservationDefinition",
+    "package_file": "StructureDefinition-ObservationDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "OperationDefinition",
+    "abstract": false,
+    "description": "A formal computable definition of an operation (on the RESTful interface) or a named query (using the search interaction).",
+    "url": "https://hl7.org/fhir/R5/operationdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/OperationDefinition",
+    "package_file": "StructureDefinition-OperationDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "OperationOutcome",
+    "abstract": false,
+    "description": "A collection of error, warning, or information messages that result from a system action.",
+    "url": "https://hl7.org/fhir/R5/operationoutcome.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/OperationOutcome",
+    "package_file": "StructureDefinition-OperationOutcome.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "Organization",
+    "abstract": false,
+    "description": "A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.",
+    "url": "https://hl7.org/fhir/R5/organization.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Organization",
+    "package_file": "StructureDefinition-Organization.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "OrganizationAffiliation",
+    "abstract": false,
+    "description": "Defines an affiliation/assotiation/relationship between 2 distinct organizations, that is not a part-of relationship/sub-division relationship.",
+    "url": "https://hl7.org/fhir/R5/organizationaffiliation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation",
+    "package_file": "StructureDefinition-OrganizationAffiliation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "PackagedProductDefinition",
+    "abstract": false,
+    "description": "A medically related item or items, in a container or package.",
+    "url": "https://hl7.org/fhir/R5/packagedproductdefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition",
+    "package_file": "StructureDefinition-PackagedProductDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Parameters",
+    "abstract": false,
+    "description": "This resource is used to pass information into and back from an operation (whether invoked directly from REST or within a messaging environment).  It is not persisted or allowed to be referenced by other resources except as described in the definition of the Parameters resource.",
+    "url": "https://hl7.org/fhir/R5/parameters.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Parameters",
+    "package_file": "StructureDefinition-Parameters.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "Patient",
+    "abstract": false,
+    "description": "Demographics and other administrative information about an individual or animal receiving care or other health-related services.",
+    "url": "https://hl7.org/fhir/R5/patient.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Patient",
+    "package_file": "StructureDefinition-Patient.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "PaymentNotice",
+    "abstract": false,
+    "description": "This resource provides the status of the payment for goods and services rendered, and the request and response resource references.",
+    "url": "https://hl7.org/fhir/R5/paymentnotice.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/PaymentNotice",
+    "package_file": "StructureDefinition-PaymentNotice.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "PaymentReconciliation",
+    "abstract": false,
+    "description": "This resource provides the details including amount of a payment and allocates the payment items being paid.",
+    "url": "https://hl7.org/fhir/R5/paymentreconciliation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation",
+    "package_file": "StructureDefinition-PaymentReconciliation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Permission",
+    "abstract": false,
+    "description": "Permission resource holds access rules for a given data and context.",
+    "url": "https://hl7.org/fhir/R5/permission.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Permission",
+    "package_file": "StructureDefinition-Permission.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Person",
+    "abstract": false,
+    "description": "Demographics and administrative information about a person independent of a specific health-related context.",
+    "url": "https://hl7.org/fhir/R5/person.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Person",
+    "package_file": "StructureDefinition-Person.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "PlanDefinition",
+    "abstract": false,
+    "description": "This resource allows for the definition of various types of plans as a sharable, consumable, and executable artifact. The resource is general enough to support the description of a broad range of clinical and non-clinical artifacts such as clinical decision support rules, order sets, protocols, and drug quality specifications.",
+    "url": "https://hl7.org/fhir/R5/plandefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/PlanDefinition",
+    "package_file": "StructureDefinition-PlanDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Practitioner",
+    "abstract": false,
+    "description": "A person who is directly or indirectly involved in the provisioning of healthcare or related services.",
+    "url": "https://hl7.org/fhir/R5/practitioner.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Practitioner",
+    "package_file": "StructureDefinition-Practitioner.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "PractitionerRole",
+    "abstract": false,
+    "description": "A specific set of Roles/Locations/specialties/services that a practitioner may perform, or has performed at an organization during a period of time.",
+    "url": "https://hl7.org/fhir/R5/practitionerrole.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+    "package_file": "StructureDefinition-PractitionerRole.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Procedure",
+    "abstract": false,
+    "description": "An action that is or was performed on or for a patient, practitioner, device, organization, or location. For example, this can be a physical intervention on a patient like an operation, or less invasive like long term services, counseling, or hypnotherapy.  This can be a quality or safety inspection for a location, organization, or device.  This can be an accreditation procedure on a practitioner for licensing.",
+    "url": "https://hl7.org/fhir/R5/procedure.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Procedure",
+    "package_file": "StructureDefinition-Procedure.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Provenance",
+    "abstract": false,
+    "description": "Provenance of a resource is a record that describes entities and processes involved in producing and delivering or otherwise influencing that resource. Provenance provides a critical foundation for assessing authenticity, enabling trust, and allowing reproducibility. Provenance assertions are a form of contextual metadata and can themselves become important records with their own provenance. Provenance statement indicates clinical significance in terms of confidence in authenticity, reliability, and trustworthiness, integrity, and stage in lifecycle (e.g. Document Completion - has the artifact been legally authenticated), all of which may impact security, privacy, and trust policies.",
+    "url": "https://hl7.org/fhir/R5/provenance.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Provenance",
+    "package_file": "StructureDefinition-Provenance.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Questionnaire",
+    "abstract": false,
+    "description": "A structured set of questions intended to guide the collection of answers from end-users. Questionnaires provide detailed control over order, presentation, phraseology and grouping to allow coherent, consistent data collection.",
+    "url": "https://hl7.org/fhir/R5/questionnaire.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Questionnaire",
+    "package_file": "StructureDefinition-Questionnaire.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "QuestionnaireResponse",
+    "abstract": false,
+    "description": "A structured set of questions and their answers. The questions are ordered and grouped into coherent subsets, corresponding to the structure of the grouping of the questionnaire being responded to.",
+    "url": "https://hl7.org/fhir/R5/questionnaireresponse.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse",
+    "package_file": "StructureDefinition-QuestionnaireResponse.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "RegulatedAuthorization",
+    "abstract": false,
+    "description": "Regulatory approval, clearance or licencing related to a regulated product, treatment, facility or activity that is cited in a guidance, regulation, rule or legislative act. An example is Market Authorization relating to a Medicinal Product.",
+    "url": "https://hl7.org/fhir/R5/regulatedauthorization.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization",
+    "package_file": "StructureDefinition-RegulatedAuthorization.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "RelatedPerson",
+    "abstract": false,
+    "description": "Information about a person that is involved in a patient's health or the care for a patient, but who is not the target of healthcare, nor has a formal responsibility in the care process.",
+    "url": "https://hl7.org/fhir/R5/relatedperson.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
+    "package_file": "StructureDefinition-RelatedPerson.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "RequestOrchestration",
+    "abstract": false,
+    "description": "A set of related requests that can be used to capture intended activities that have inter-dependencies such as \"give this medication after that one\".",
+    "url": "https://hl7.org/fhir/R5/requestorchestration.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/RequestOrchestration",
+    "package_file": "StructureDefinition-RequestOrchestration.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Requirements",
+    "abstract": false,
+    "description": "The Requirements resource is used to describe an actor - a human or an application that plays a role in data exchange, and that may have obligations associated with the role the actor plays.",
+    "url": "https://hl7.org/fhir/R5/requirements.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Requirements",
+    "package_file": "StructureDefinition-Requirements.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ResearchStudy",
+    "abstract": false,
+    "description": "A scientific study of nature that sometimes includes processes involved in health and disease. For example, clinical trials are research studies that involve people. These studies may be related to new ways to screen, prevent, diagnose, and treat disease. They may also study certain outcomes and certain groups of people by looking at data collected in the past or future.",
+    "url": "https://hl7.org/fhir/R5/researchstudy.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ResearchStudy",
+    "package_file": "StructureDefinition-ResearchStudy.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "ResearchSubject",
+    "abstract": false,
+    "description": "A ResearchSubject is a participant or object which is the recipient of investigative activities in a research study.",
+    "url": "https://hl7.org/fhir/R5/researchsubject.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ResearchSubject",
+    "package_file": "StructureDefinition-ResearchSubject.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "Resource",
+    "abstract": true,
+    "description": "This is the base resource type for everything.",
+    "url": "https://hl7.org/fhir/R5/resource.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Resource",
+    "package_file": "StructureDefinition-Resource.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "RiskAssessment",
+    "abstract": false,
+    "description": "An assessment of the likely outcome(s) for a patient or other subject as well as the likelihood of each outcome.",
+    "url": "https://hl7.org/fhir/R5/riskassessment.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/RiskAssessment",
+    "package_file": "StructureDefinition-RiskAssessment.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Schedule",
+    "abstract": false,
+    "description": "A container for slots of time that may be available for booking appointments.",
+    "url": "https://hl7.org/fhir/R5/schedule.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Schedule",
+    "package_file": "StructureDefinition-Schedule.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "SearchParameter",
+    "abstract": false,
+    "description": "A search parameter that defines a named search item that can be used to search/filter on a resource.",
+    "url": "https://hl7.org/fhir/R5/searchparameter.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SearchParameter",
+    "package_file": "StructureDefinition-SearchParameter.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "ServiceRequest",
+    "abstract": false,
+    "description": "A record of a request for service such as diagnostic investigations, treatments, or operations to be performed.",
+    "url": "https://hl7.org/fhir/R5/servicerequest.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ServiceRequest",
+    "package_file": "StructureDefinition-ServiceRequest.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Slot",
+    "abstract": false,
+    "description": "A slot of time on a schedule that may be available for booking appointments.",
+    "url": "https://hl7.org/fhir/R5/slot.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Slot",
+    "package_file": "StructureDefinition-Slot.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "Specimen",
+    "abstract": false,
+    "description": "A sample to be used for analysis.",
+    "url": "https://hl7.org/fhir/R5/specimen.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Specimen",
+    "package_file": "StructureDefinition-Specimen.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "SpecimenDefinition",
+    "abstract": false,
+    "description": "A kind of specimen with associated set of requirements.",
+    "url": "https://hl7.org/fhir/R5/specimendefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SpecimenDefinition",
+    "package_file": "StructureDefinition-SpecimenDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "StructureDefinition",
+    "abstract": false,
+    "description": "A definition of a FHIR structure. This resource is used to describe the underlying resources, data types defined in FHIR, and also for describing extensions and constraints on resources and data types.",
+    "url": "https://hl7.org/fhir/R5/structuredefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/StructureDefinition",
+    "package_file": "StructureDefinition-StructureDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "StructureMap",
+    "abstract": false,
+    "description": "A Map of relationships between 2 structures that can be used to transform data.",
+    "url": "https://hl7.org/fhir/R5/structuremap.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/StructureMap",
+    "package_file": "StructureDefinition-StructureMap.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Subscription",
+    "abstract": false,
+    "description": "The subscription resource describes a particular client's request to be notified about a SubscriptionTopic.",
+    "url": "https://hl7.org/fhir/R5/subscription.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Subscription",
+    "package_file": "StructureDefinition-Subscription.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "SubscriptionStatus",
+    "abstract": false,
+    "description": "The SubscriptionStatus resource describes the state of a Subscription during notifications. It is not persisted.",
+    "url": "https://hl7.org/fhir/R5/subscriptionstatus.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubscriptionStatus",
+    "package_file": "StructureDefinition-SubscriptionStatus.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "SubscriptionTopic",
+    "abstract": false,
+    "description": "Describes a stream of resource state changes identified by trigger criteria and annotated with labels useful to filter projections from this topic.",
+    "url": "https://hl7.org/fhir/R5/subscriptiontopic.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubscriptionTopic",
+    "package_file": "StructureDefinition-SubscriptionTopic.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "Substance",
+    "abstract": false,
+    "description": "A homogeneous material with a definite composition.",
+    "url": "https://hl7.org/fhir/R5/substance.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Substance",
+    "package_file": "StructureDefinition-Substance.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 2
+      }
+    ]
+  },
+  {
+    "id": "SubstanceDefinition",
+    "abstract": false,
+    "description": "The detailed description of a substance, typically at a level beyond what is used for prescribing.",
+    "url": "https://hl7.org/fhir/R5/substancedefinition.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubstanceDefinition",
+    "package_file": "StructureDefinition-SubstanceDefinition.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "SubstanceNucleicAcid",
+    "abstract": false,
+    "description": "Nucleic acids are defined by three distinct elements: the base, sugar and linkage. Individual substance/moiety IDs will be created for each of these elements. The nucleotide sequence will be always entered in the 5’-3’ direction.",
+    "url": "https://hl7.org/fhir/R5/substancenucleicacid.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubstanceNucleicAcid",
+    "package_file": "StructureDefinition-SubstanceNucleicAcid.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "SubstancePolymer",
+    "abstract": false,
+    "description": "Properties of a substance specific to it being a polymer.",
+    "url": "https://hl7.org/fhir/R5/substancepolymer.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubstancePolymer",
+    "package_file": "StructureDefinition-SubstancePolymer.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "SubstanceProtein",
+    "abstract": false,
+    "description": "A SubstanceProtein is defined as a single unit of a linear amino acid sequence, or a combination of subunits that are either covalently linked or have a defined invariant stoichiometric relationship. This includes all synthetic, recombinant and purified SubstanceProteins of defined sequence, whether the use is therapeutic or prophylactic. This set of elements will be used to describe albumins, coagulation factors, cytokines, growth factors, peptide/SubstanceProtein hormones, enzymes, toxins, toxoids, recombinant vaccines, and immunomodulators.",
+    "url": "https://hl7.org/fhir/R5/substanceprotein.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubstanceProtein",
+    "package_file": "StructureDefinition-SubstanceProtein.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "SubstanceReferenceInformation",
+    "abstract": false,
+    "description": "Todo.",
+    "url": "https://hl7.org/fhir/R5/substancereferenceinformation.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubstanceReferenceInformation",
+    "package_file": "StructureDefinition-SubstanceReferenceInformation.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "SubstanceSourceMaterial",
+    "abstract": false,
+    "description": "Source material shall capture information on the taxonomic and anatomical origins as well as the fraction of a material that can result in or can be modified to form a substance. This set of data elements shall be used to define polymer substances isolated from biological matrices. Taxonomic and anatomical origins shall be described using a controlled vocabulary as required. This information is captured for naturally derived polymers ( . starch) and structurally diverse substances. For Organisms belonging to the Kingdom Plantae the Substance level defines the fresh material of a single species or infraspecies, the Herbal Drug and the Herbal preparation. For Herbal preparations, the fraction information will be captured at the Substance information level and additional information for herbal extracts will be captured at the Specified Substance Group 1 information level. See for further explanation the Substance Class: Structurally Diverse and the herbal annex.",
+    "url": "https://hl7.org/fhir/R5/substancesourcematerial.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial",
+    "package_file": "StructureDefinition-SubstanceSourceMaterial.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "SupplyDelivery",
+    "abstract": false,
+    "description": "Record of delivery of what is supplied.",
+    "url": "https://hl7.org/fhir/R5/supplydelivery.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SupplyDelivery",
+    "package_file": "StructureDefinition-SupplyDelivery.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "SupplyRequest",
+    "abstract": false,
+    "description": "A record of a non-patient specific request for a medication, substance, device, certain types of biologically derived product, and nutrition product used in the healthcare setting.",
+    "url": "https://hl7.org/fhir/R5/supplyrequest.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/SupplyRequest",
+    "package_file": "StructureDefinition-SupplyRequest.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "Task",
+    "abstract": false,
+    "description": "A task to be performed.",
+    "url": "https://hl7.org/fhir/R5/task.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Task",
+    "package_file": "StructureDefinition-Task.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  },
+  {
+    "id": "TerminologyCapabilities",
+    "abstract": false,
+    "description": "A TerminologyCapabilities resource documents a set of capabilities (behaviors) of a FHIR Terminology Server that may be used as a statement of actual server functionality or a statement of required or desired server implementation.",
+    "url": "https://hl7.org/fhir/R5/terminologycapabilities.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities",
+    "package_file": "StructureDefinition-TerminologyCapabilities.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "TestPlan",
+    "abstract": false,
+    "description": "A plan for executing testing on an artifact or specifications",
+    "url": "https://hl7.org/fhir/R5/testplan.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/TestPlan",
+    "package_file": "StructureDefinition-TestPlan.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "draft"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 0
+      }
+    ]
+  },
+  {
+    "id": "TestReport",
+    "abstract": false,
+    "description": "A summary of information based on the results of executing a TestScript.",
+    "url": "https://hl7.org/fhir/R5/testreport.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/TestReport",
+    "package_file": "StructureDefinition-TestReport.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "TestScript",
+    "abstract": false,
+    "description": "A structured set of tests against a FHIR server or client implementation to determine compliance against the FHIR specification.",
+    "url": "https://hl7.org/fhir/R5/testscript.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/TestScript",
+    "package_file": "StructureDefinition-TestScript.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 4
+      }
+    ]
+  },
+  {
+    "id": "Transport",
+    "abstract": false,
+    "description": "Record of transport.",
+    "url": "https://hl7.org/fhir/R5/transport.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/Transport",
+    "package_file": "StructureDefinition-Transport.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "ValueSet",
+    "abstract": false,
+    "description": "A ValueSet resource instance specifies a set of codes drawn from one or more code systems, intended for use in a particular context. Value sets link between [[[CodeSystem]]] definitions and their use in [coded elements](terminologies.html).",
+    "url": "https://hl7.org/fhir/R5/valueset.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/ValueSet",
+    "package_file": "StructureDefinition-ValueSet.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "normative"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 5
+      }
+    ]
+  },
+  {
+    "id": "VerificationResult",
+    "abstract": false,
+    "description": "Describes validation requirements, source(s), status and dates for one or more elements.",
+    "url": "https://hl7.org/fhir/R5/verificationresult.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/VerificationResult",
+    "package_file": "StructureDefinition-VerificationResult.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 1
+      }
+    ]
+  },
+  {
+    "id": "VisionPrescription",
+    "abstract": false,
+    "description": "An authorization for the provision of glasses and/or contact lenses to a patient.",
+    "url": "https://hl7.org/fhir/R5/visionprescription.html",
+    "canonical": "http://hl7.org/fhir/StructureDefinition/VisionPrescription",
+    "package_file": "StructureDefinition-VisionPrescription.json",
+    "maturity": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+        "valueCode": "trial-use"
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+        "valueInteger": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,765 @@
+{
+  "checked_on": "2026-10-15",
+  "sources": [
+    {
+      "key": "history",
+      "url": "https://hl7.org/fhir/package-list.json",
+      "final_url": "https://hl7.org/fhir/package-list.json",
+      "bytes": 14483,
+      "sha256": "b64f000d6a8a74ab47f909c3b03d0e18e6aa1be018c2a7da5cfd21d0d5fd9ef4"
+    },
+    {
+      "key": "r5-toc",
+      "url": "https://hl7.org/fhir/R5/toc.html",
+      "final_url": "https://hl7.org/fhir/R5/toc.html",
+      "bytes": 3216665,
+      "sha256": "4a1b1c2b9a5c93ad7511778c46869668a78e0481aef688300ed1b262f802b61c"
+    },
+    {
+      "key": "r5-resources",
+      "url": "https://hl7.org/fhir/R5/resourcelist.html",
+      "final_url": "https://hl7.org/fhir/R5/resourcelist.html",
+      "bytes": 364117,
+      "sha256": "54870b2baf3cdb2e279381e062e9aa400fb0c3fcb2cb1a3ebad6b99600db7c1e"
+    },
+    {
+      "key": "r5-modules",
+      "url": "https://hl7.org/fhir/R5/modules.html",
+      "final_url": "https://hl7.org/fhir/R5/modules.html",
+      "bytes": 25227,
+      "sha256": "d7c44fc831eb49b93fb6f69889e61df71a1f05b7570c4fd3c37996a11ef311fb"
+    },
+    {
+      "key": "r6-home",
+      "url": "https://hl7.org/fhir/6.0.0-snapshot1/index.html",
+      "final_url": "https://hl7.org/fhir/6.0.0-snapshot1/index.html",
+      "bytes": 26032,
+      "sha256": "29e16254ba6a94d4a9ef3f1ef1d6fed1460b9713f1b803cfa43189c1d0137fbb"
+    },
+    {
+      "key": "r5-package",
+      "url": "https://hl7.org/fhir/R5/hl7.fhir.r5.core.tgz",
+      "final_url": "https://hl7.org/fhir/R5/hl7.fhir.r5.core.tgz",
+      "bytes": 17057450,
+      "sha256": "74b27cd1bfce9e80eaceac431edf230b0945a443564fbf5512f82e5fa50a80d4"
+    },
+    {
+      "key": "administration-module",
+      "url": "https://hl7.org/fhir/R5/administration-module.html",
+      "final_url": "https://hl7.org/fhir/R5/administration-module.html",
+      "bytes": 43977,
+      "sha256": "dd88313718d4ef3a120fc248f052b5b1b710cf4ecbb686efaa59aa5ee0729bad",
+      "title": "Administration-module - FHIR v5.0.0",
+      "chars": 13107
+    },
+    {
+      "key": "auditevent",
+      "url": "https://hl7.org/fhir/R5/auditevent.html",
+      "final_url": "https://hl7.org/fhir/R5/auditevent.html",
+      "bytes": 456103,
+      "sha256": "07b9783a9555cba55855718efc419c5ba06038c377b7b5eeb3a30d6fd9ebbf8c",
+      "title": "AuditEvent - FHIR v5.0.0",
+      "chars": 56046
+    },
+    {
+      "key": "bundle",
+      "url": "https://hl7.org/fhir/R5/bundle.html",
+      "final_url": "https://hl7.org/fhir/R5/bundle.html",
+      "bytes": 405307,
+      "sha256": "47b277c4b9d5f7686bd4df0c4480fa8616b9018bc2c69af73a04c6f6f4675daf",
+      "title": "Bundle - FHIR v5.0.0",
+      "chars": 48947
+    },
+    {
+      "key": "clinicalreasoning-cds-on-fhir",
+      "url": "https://hl7.org/fhir/R5/clinicalreasoning-cds-on-fhir.html",
+      "final_url": "https://hl7.org/fhir/R5/clinicalreasoning-cds-on-fhir.html",
+      "bytes": 40885,
+      "sha256": "eaad53e94f69da7ce3dfdec8b8a91638d746c50e2c577188254a5a09cbd1ba6c",
+      "title": "Clinicalreasoning-cds-on-fhir - FHIR v5.0.0",
+      "chars": 17518
+    },
+    {
+      "key": "clinicalreasoning-knowledge-artifact-distribution",
+      "url": "https://hl7.org/fhir/R5/clinicalreasoning-knowledge-artifact-distribution.html",
+      "final_url": "https://hl7.org/fhir/R5/clinicalreasoning-knowledge-artifact-distribution.html",
+      "bytes": 26640,
+      "sha256": "f5cf3b50f63b76244c9345f033701e2984dbc66519fabbf67a76ccc0dc483d50",
+      "title": "Clinicalreasoning-knowledge-artifact-distribution - FHIR v5.0.0",
+      "chars": 11271
+    },
+    {
+      "key": "clinicalreasoning-module",
+      "url": "https://hl7.org/fhir/R5/clinicalreasoning-module.html",
+      "final_url": "https://hl7.org/fhir/R5/clinicalreasoning-module.html",
+      "bytes": 62907,
+      "sha256": "4d31f3a96c1554cb33dfc3dfcc0ced238160855312141175423ec2456a84b89f",
+      "title": "Clinicalreasoning-module - FHIR v5.0.0",
+      "chars": 25054
+    },
+    {
+      "key": "clinicalsummary-module",
+      "url": "https://hl7.org/fhir/R5/clinicalsummary-module.html",
+      "final_url": "https://hl7.org/fhir/R5/clinicalsummary-module.html",
+      "bytes": 26057,
+      "sha256": "0b31959767fdb1119ef40d61b6977ff45d361240cd7959376181096450709abf",
+      "title": "Clinicalsummary-module - FHIR v5.0.0",
+      "chars": 4138
+    },
+    {
+      "key": "codesystem",
+      "url": "https://hl7.org/fhir/R5/codesystem.html",
+      "final_url": "https://hl7.org/fhir/R5/codesystem.html",
+      "bytes": 663578,
+      "sha256": "48050afbb18532192bf368796a9e2c8cf858ea9277042b56707de6113f9366fb",
+      "title": "CodeSystem - FHIR v5.0.0",
+      "chars": 78770
+    },
+    {
+      "key": "compartmentdef",
+      "url": "https://hl7.org/fhir/R5/compartmentdef.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "conceptmap",
+      "url": "https://hl7.org/fhir/R5/conceptmap.html",
+      "final_url": "https://hl7.org/fhir/R5/conceptmap.html",
+      "bytes": 833286,
+      "sha256": "579eeffb650c5b86c1b627e9fc33fe80ae4f21ec6862a794f791820dac870b22",
+      "title": "ConceptMap - FHIR v5.0.0",
+      "chars": 85111
+    },
+    {
+      "key": "conformance-module",
+      "url": "https://hl7.org/fhir/R5/conformance-module.html",
+      "final_url": "https://hl7.org/fhir/R5/conformance-module.html",
+      "bytes": 27656,
+      "sha256": "4ad8508bf27910e778666388b4831e1eb469c04ac07b42d226c55c0054d0265f",
+      "title": "Conformance-module - FHIR v5.0.0",
+      "chars": 8862
+    },
+    {
+      "key": "conformance-rules",
+      "url": "https://hl7.org/fhir/R5/conformance-rules.html",
+      "final_url": "https://hl7.org/fhir/R5/conformance-rules.html",
+      "bytes": 58270,
+      "sha256": "54bce0d3e41027302afbd9eb98659aee82737a25ffee8c2c8bde78dd1d3ee653",
+      "title": "Conformance-rules - FHIR v5.0.0",
+      "chars": 22281
+    },
+    {
+      "key": "consent",
+      "url": "https://hl7.org/fhir/R5/consent.html",
+      "final_url": "https://hl7.org/fhir/R5/consent.html",
+      "bytes": 446188,
+      "sha256": "9cefa81d1a6885d0d466330104d0441b88e5e51fc5bd011a03be2c9ddf8ea25b",
+      "title": "Consent - FHIR v5.0.0",
+      "chars": 63329
+    },
+    {
+      "key": "datatypes",
+      "url": "https://hl7.org/fhir/R5/datatypes.html",
+      "final_url": "https://hl7.org/fhir/R5/datatypes.html",
+      "bytes": 1665071,
+      "sha256": "d826e1819b10280b5d089b81efd14b6531419bd0fa9668d62ad6a3c2a333e201",
+      "title": "Datatypes - FHIR v5.0.0",
+      "chars": 179745
+    },
+    {
+      "key": "datatypes-extensibility",
+      "url": "https://hl7.org/fhir/R5/datatypes-extensibility.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "definition",
+      "url": "https://hl7.org/fhir/R5/definition.html",
+      "final_url": "https://hl7.org/fhir/R5/definition.html",
+      "bytes": 389604,
+      "sha256": "a07558d1ad451a193b39978742ce23068789ce497b8bfda25668b60d5ad24b87",
+      "title": "definition - FHIR v5.0.0",
+      "chars": 13809
+    },
+    {
+      "key": "diagnostics-module",
+      "url": "https://hl7.org/fhir/R5/diagnostics-module.html",
+      "final_url": "https://hl7.org/fhir/R5/diagnostics-module.html",
+      "bytes": 46291,
+      "sha256": "dc369f9e976efd625ae03b1a7b47edc46d024cf96baa79476bc1eda7d802d066",
+      "title": "Diagnostics-module - FHIR v5.0.0",
+      "chars": 17896
+    },
+    {
+      "key": "directory",
+      "url": "https://hl7.org/fhir/R5/directory.html",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "documents",
+      "url": "https://hl7.org/fhir/R5/documents.html",
+      "final_url": "https://hl7.org/fhir/R5/documents.html",
+      "bytes": 37654,
+      "sha256": "1ef1059daa9142a9fc20f6442d6d5f5168c31710ba6f820d119a1d6baf790d39",
+      "title": "Documents - FHIR v5.0.0",
+      "chars": 15006
+    },
+    {
+      "key": "domainresource",
+      "url": "https://hl7.org/fhir/R5/domainresource.html",
+      "final_url": "https://hl7.org/fhir/R5/domainresource.html",
+      "bytes": 69581,
+      "sha256": "c9a72912ce767c1a3451db4fe6809f94a08c2b22474e726e81841768a851ff0a",
+      "title": "DomainResource - FHIR v5.0.0",
+      "chars": 9615
+    },
+    {
+      "key": "downloads",
+      "url": "https://hl7.org/fhir/R5/downloads.html",
+      "final_url": "https://hl7.org/fhir/R5/downloads.html",
+      "bytes": 19611,
+      "sha256": "975efca9c8062f69e2cb4b8a1252b79b11ff475923aceef1f3bbc05fafeacf28",
+      "title": "Downloads - FHIR v5.0.0",
+      "chars": 5188
+    },
+    {
+      "key": "elementdefinition",
+      "url": "https://hl7.org/fhir/R5/elementdefinition.html",
+      "final_url": "https://hl7.org/fhir/R5/elementdefinition.html",
+      "bytes": 1547859,
+      "sha256": "23ada6028364cf57ceb873da45763bf186d11901fcf3dcd76cd6421914ddba4a",
+      "title": "Elementdefinition - FHIR v5.0.0",
+      "chars": 135164
+    },
+    {
+      "key": "event",
+      "url": "https://hl7.org/fhir/R5/event.html",
+      "final_url": "https://hl7.org/fhir/R5/event.html",
+      "bytes": 659359,
+      "sha256": "02dce40f53ccb34754412b42933028fcca5717eca18c543fb276338c5fa4b2b1",
+      "title": "event - FHIR v5.0.0",
+      "chars": 17346
+    },
+    {
+      "key": "exchange-module",
+      "url": "https://hl7.org/fhir/R5/exchange-module.html",
+      "final_url": "https://hl7.org/fhir/R5/exchange-module.html",
+      "bytes": 27435,
+      "sha256": "300d28f596c5e316a1d02c05f58f09f3f9a4cf16a6b231d45dec280493a5bc05",
+      "title": "Exchange-module - FHIR v5.0.0",
+      "chars": 6100
+    },
+    {
+      "key": "extensibility",
+      "url": "https://hl7.org/fhir/R5/extensibility.html",
+      "final_url": "https://hl7.org/fhir/R5/extensibility.html",
+      "bytes": 156299,
+      "sha256": "41f6d38e24fca74f3b87fbdb41f7470db21bbd57333737416d3c9695e5a9ab11",
+      "title": "Extensibility - FHIR v5.0.0",
+      "chars": 39881
+    },
+    {
+      "key": "fhirpath",
+      "url": "https://hl7.org/fhir/R5/fhirpath.html",
+      "final_url": "https://hl7.org/fhir/R5/fhirpath.html",
+      "bytes": 70230,
+      "sha256": "06981694c8760e1ca3e3ea39cbf6e5f781823cc3237f1e66874d3421976f25c7",
+      "title": "Fhirpath - FHIR v5.0.0",
+      "chars": 34505
+    },
+    {
+      "key": "financial-module",
+      "url": "https://hl7.org/fhir/R5/financial-module.html",
+      "final_url": "https://hl7.org/fhir/R5/financial-module.html",
+      "bytes": 82052,
+      "sha256": "fe059743917ce7ca88f7de09f1425e4323c8bafebe4ad340571753978327c5f1",
+      "title": "Financial-module - FHIR v5.0.0",
+      "chars": 30308
+    },
+    {
+      "key": "formats",
+      "url": "https://hl7.org/fhir/R5/formats.html",
+      "final_url": "https://hl7.org/fhir/R5/formats.html",
+      "bytes": 35253,
+      "sha256": "d3aaf813cdc263ef67dcbea98012aac9799f5d5adfddbdc8eff9c5c044c869c7",
+      "title": "Formats - FHIR v5.0.0",
+      "chars": 8942
+    },
+    {
+      "key": "foundation-module",
+      "url": "https://hl7.org/fhir/R5/foundation-module.html",
+      "final_url": "https://hl7.org/fhir/R5/foundation-module.html",
+      "bytes": 17633,
+      "sha256": "78f9459dbb79273a647ed27b770ccc5ba52e788c450ae0fcb986dd9893c9c70c",
+      "title": "Foundation-module - FHIR v5.0.0",
+      "chars": 2849
+    },
+    {
+      "key": "http",
+      "url": "https://hl7.org/fhir/R5/http.html",
+      "final_url": "https://hl7.org/fhir/R5/http.html",
+      "bytes": 204605,
+      "sha256": "fcf508c5e0b7cb704d7f2c394d3addfaaad88fb0ee45e153fd8dcdc0c2a61d41",
+      "title": "Http - FHIR v5.0.0",
+      "chars": 100278
+    },
+    {
+      "key": "implsupport-module",
+      "url": "https://hl7.org/fhir/R5/implsupport-module.html",
+      "final_url": "https://hl7.org/fhir/R5/implsupport-module.html",
+      "bytes": 26987,
+      "sha256": "e51e120a640ec41eb1f3a8a09c947cf63fcbb725e81f6ad1e2897ca0ab00c2d4",
+      "title": "Implsupport-module - FHIR v5.0.0",
+      "chars": 3019
+    },
+    {
+      "key": "json",
+      "url": "https://hl7.org/fhir/R5/json.html",
+      "final_url": "https://hl7.org/fhir/R5/json.html",
+      "bytes": 35285,
+      "sha256": "b7c7c6d7c59a28480c1bd849c74f0033904e32c0f5f25b0f109428134c975285",
+      "title": "Json - FHIR v5.0.0",
+      "chars": 13827
+    },
+    {
+      "key": "license",
+      "url": "https://hl7.org/fhir/R5/license.html",
+      "final_url": "https://hl7.org/fhir/R5/license.html",
+      "bytes": 26748,
+      "sha256": "452f8651729bb0e6b93c75a22f772cb7ece300a3585e1da17be944964b44aa90",
+      "title": "License - FHIR v5.0.0",
+      "chars": 7160
+    },
+    {
+      "key": "mapping",
+      "url": "https://hl7.org/fhir/R5/mapping.html",
+      "error": "HTTP Error 300: Multiple Choices"
+    },
+    {
+      "key": "mapping-language",
+      "url": "https://hl7.org/fhir/R5/mapping-language.html",
+      "final_url": "https://hl7.org/fhir/R5/mapping-language.html",
+      "bytes": 67603,
+      "sha256": "ad18f3620a06de5087a5d1725195e2858eada565e7099915bd0a691b5450fd1c",
+      "title": "Mapping-language - FHIR v5.0.0",
+      "chars": 32353
+    },
+    {
+      "key": "medication-definition-module",
+      "url": "https://hl7.org/fhir/R5/medication-definition-module.html",
+      "final_url": "https://hl7.org/fhir/R5/medication-definition-module.html",
+      "bytes": 46116,
+      "sha256": "1b418359c57b2fda4475c481efe89b3327e9310d4a06c9869ac66e9ab863c814",
+      "title": "Medication-definition-module - FHIR v5.0.0",
+      "chars": 18442
+    },
+    {
+      "key": "medications-module",
+      "url": "https://hl7.org/fhir/R5/medications-module.html",
+      "final_url": "https://hl7.org/fhir/R5/medications-module.html",
+      "bytes": 41882,
+      "sha256": "892a5d08d30ee047cfca76293f56e19a974844f1e0aa9e3f408d12af99afd4b2",
+      "title": "Medications-module - FHIR v5.0.0",
+      "chars": 16544
+    },
+    {
+      "key": "messaging",
+      "url": "https://hl7.org/fhir/R5/messaging.html",
+      "final_url": "https://hl7.org/fhir/R5/messaging.html",
+      "bytes": 60523,
+      "sha256": "5e17f5bdd5bd27eebc3f772fce0d6558a74bcb87e3c2cebe03c50a2e912093f0",
+      "title": "Messaging - FHIR v5.0.0",
+      "chars": 25072
+    },
+    {
+      "key": "metadatatypes",
+      "url": "https://hl7.org/fhir/R5/metadatatypes.html",
+      "final_url": "https://hl7.org/fhir/R5/metadatatypes.html",
+      "bytes": 1060586,
+      "sha256": "e0c0c0103537c059f4683b24add3d849c844c9750e3dcb950d2f9b24baf4524d",
+      "title": "Metadatatypes - FHIR v5.0.0",
+      "chars": 102532
+    },
+    {
+      "key": "namingsystem",
+      "url": "https://hl7.org/fhir/R5/namingsystem.html",
+      "final_url": "https://hl7.org/fhir/R5/namingsystem.html",
+      "bytes": 404561,
+      "sha256": "708dfc6b194b7001886fcd840a8d38773085de7a596f77f316325bd3c504d85a",
+      "title": "NamingSystem - FHIR v5.0.0",
+      "chars": 38254
+    },
+    {
+      "key": "narrative",
+      "url": "https://hl7.org/fhir/R5/narrative.html",
+      "final_url": "https://hl7.org/fhir/R5/narrative.html",
+      "bytes": 73472,
+      "sha256": "48df1c6b0df39bab4d5fa9e33cd09a1f457316ef519c974dbc4435da045891a4",
+      "title": "Narrative - FHIR v5.0.0",
+      "chars": 20673
+    },
+    {
+      "key": "operations",
+      "url": "https://hl7.org/fhir/R5/operations.html",
+      "final_url": "https://hl7.org/fhir/R5/operations.html",
+      "bytes": 35579,
+      "sha256": "3b7e7dd1efebb65bf70dcced06b38133e0d4669002941d72c7c9398f8923b0fc",
+      "title": "Operations - FHIR v5.0.0",
+      "chars": 12202
+    },
+    {
+      "key": "operationslist",
+      "url": "https://hl7.org/fhir/R5/operationslist.html",
+      "final_url": "https://hl7.org/fhir/R5/operationslist.html",
+      "bytes": 26224,
+      "sha256": "67840503f753687aeb8ddc61fc9cb1a0295853d13da4b644dee2fc63495d938e",
+      "title": "Operationslist - FHIR v5.0.0",
+      "chars": 8589
+    },
+    {
+      "key": "overview",
+      "url": "https://hl7.org/fhir/R5/overview.html",
+      "final_url": "https://hl7.org/fhir/R5/overview.html",
+      "bytes": 36003,
+      "sha256": "28634ae93b38746ec6462d4f0a20051c3ba2f6eba69dce9b37219dfbec16bafe",
+      "title": "Overview - FHIR v5.0.0",
+      "chars": 9421
+    },
+    {
+      "key": "overview-dev",
+      "url": "https://hl7.org/fhir/R5/overview-dev.html",
+      "final_url": "https://hl7.org/fhir/R5/overview-dev.html",
+      "bytes": 55948,
+      "sha256": "1869d39d7fd2b9be15ffcd1654fb66afcef6da156e9f15700f8ac79f9bb7c9e6",
+      "title": "Overview-dev - FHIR v5.0.0",
+      "chars": 19688
+    },
+    {
+      "key": "profiling",
+      "url": "https://hl7.org/fhir/R5/profiling.html",
+      "final_url": "https://hl7.org/fhir/R5/profiling.html",
+      "bytes": 110324,
+      "sha256": "23369674a2319301d71a21f2db480cb3300ceaebb6924bde00d348757c636fdc",
+      "title": "Profiling - FHIR v5.0.0",
+      "chars": 55589
+    },
+    {
+      "key": "provenance",
+      "url": "https://hl7.org/fhir/R5/provenance.html",
+      "final_url": "https://hl7.org/fhir/R5/provenance.html",
+      "bytes": 277558,
+      "sha256": "3124befd937fa142245f09f1db724c524a82f9ce2831e29aff9185dae62487a6",
+      "title": "Provenance - FHIR v5.0.0",
+      "chars": 37076
+    },
+    {
+      "key": "rdf",
+      "url": "https://hl7.org/fhir/R5/rdf.html",
+      "final_url": "https://hl7.org/fhir/R5/rdf.html",
+      "bytes": 97615,
+      "sha256": "2d057b8b1e77886dbc424b8ebefe0693ebafa5490bfb5535b5fbce0b07672f6f",
+      "title": "Rdf - FHIR v5.0.0",
+      "chars": 38217
+    },
+    {
+      "key": "references",
+      "url": "https://hl7.org/fhir/R5/references.html",
+      "final_url": "https://hl7.org/fhir/R5/references.html",
+      "bytes": 200047,
+      "sha256": "fd70b4341507dccd337c37c9c226a445c0b1ac592adb973907aac6420166fbd6",
+      "title": "References - FHIR v5.0.0",
+      "chars": 49322
+    },
+    {
+      "key": "request",
+      "url": "https://hl7.org/fhir/R5/request.html",
+      "final_url": "https://hl7.org/fhir/R5/request.html",
+      "bytes": 506762,
+      "sha256": "9265f08b656e13ca9dcf0b926c1567abb5f86a56a4a95e2f1fd9e66c70a43f00",
+      "title": "request - FHIR v5.0.0",
+      "chars": 25832
+    },
+    {
+      "key": "resource",
+      "url": "https://hl7.org/fhir/R5/resource.html",
+      "final_url": "https://hl7.org/fhir/R5/resource.html",
+      "bytes": 179429,
+      "sha256": "2b6d940e60630ffa158d5728d13d1dc0ea62694696f88da09c424976d7eff103",
+      "title": "Resource - FHIR v5.0.0",
+      "chars": 38211
+    },
+    {
+      "key": "resourceguide",
+      "url": "https://hl7.org/fhir/R5/resourceguide.html",
+      "final_url": "https://hl7.org/fhir/R5/resourceguide.html",
+      "bytes": 53818,
+      "sha256": "1cc83152de02bd31db21c1cc91c570a44fddfa618dd2e8fd0511b3af9df03b27",
+      "title": "Resourceguide - FHIR v5.0.0",
+      "chars": 3327
+    },
+    {
+      "key": "safety",
+      "url": "https://hl7.org/fhir/R5/safety.html",
+      "final_url": "https://hl7.org/fhir/R5/safety.html",
+      "bytes": 44498,
+      "sha256": "6ee8fd0a7ad48924f74f43117ca520e366491be1fd4a1ace0fd2c0d03855f62c",
+      "title": "Safety - FHIR v5.0.0",
+      "chars": 12843
+    },
+    {
+      "key": "search",
+      "url": "https://hl7.org/fhir/R5/search.html",
+      "final_url": "https://hl7.org/fhir/R5/search.html",
+      "bytes": 451176,
+      "sha256": "bf48204e6b729c335ab9afca0239db5e986669b1846c8b96b3220b68aae7ee35",
+      "title": "Search - FHIR v5.0.0",
+      "chars": 204898
+    },
+    {
+      "key": "searchparameter-registry",
+      "url": "https://hl7.org/fhir/R5/searchparameter-registry.html",
+      "final_url": "https://hl7.org/fhir/R5/searchparameter-registry.html",
+      "bytes": 660937,
+      "sha256": "2a090bd07b2cb7ae947a07f86ab413db8ddb3cf4570a97f4c743b00a2572e85b",
+      "title": "Searchparameter-registry - FHIR v5.0.0",
+      "chars": 331805
+    },
+    {
+      "key": "secpriv-module",
+      "url": "https://hl7.org/fhir/R5/secpriv-module.html",
+      "final_url": "https://hl7.org/fhir/R5/secpriv-module.html",
+      "bytes": 55603,
+      "sha256": "c3e10e04b0ddde78b9fbe4927867b9faf4c2c10683a577bdcae40cb9b59df90e",
+      "title": "Secpriv-module - FHIR v5.0.0",
+      "chars": 22806
+    },
+    {
+      "key": "security",
+      "url": "https://hl7.org/fhir/R5/security.html",
+      "final_url": "https://hl7.org/fhir/R5/security.html",
+      "bytes": 63444,
+      "sha256": "e7036a67c27821b4a4a681253d71a1eaa1860574595d2f9e2e7846865c35190b",
+      "title": "Security - FHIR v5.0.0",
+      "chars": 26648
+    },
+    {
+      "key": "security-labels",
+      "url": "https://hl7.org/fhir/R5/security-labels.html",
+      "final_url": "https://hl7.org/fhir/R5/security-labels.html",
+      "bytes": 41697,
+      "sha256": "bf3ad5e5ccb7bb6ea534fb8a69e93f95d5e8938a4078b5a40ebcf0003e348178",
+      "title": "Security-labels - FHIR v5.0.0",
+      "chars": 17499
+    },
+    {
+      "key": "structuredefinition",
+      "url": "https://hl7.org/fhir/R5/structuredefinition.html",
+      "final_url": "https://hl7.org/fhir/R5/structuredefinition.html",
+      "bytes": 541473,
+      "sha256": "8208bda86e6ba23da16c807d3805aa20d0068d8e1068ffd8787104ef205df227",
+      "title": "StructureDefinition - FHIR v5.0.0",
+      "chars": 69844
+    },
+    {
+      "key": "subscriptions",
+      "url": "https://hl7.org/fhir/R5/subscriptions.html",
+      "final_url": "https://hl7.org/fhir/R5/subscriptions.html",
+      "bytes": 72818,
+      "sha256": "73cffc7e96c1233542703b9c1e668a3158338e1565879da1daf7ce201f8d375a",
+      "title": "Subscriptions - FHIR v5.0.0",
+      "chars": 28392
+    },
+    {
+      "key": "terminologies",
+      "url": "https://hl7.org/fhir/R5/terminologies.html",
+      "final_url": "https://hl7.org/fhir/R5/terminologies.html",
+      "bytes": 84704,
+      "sha256": "df55dfee648999b0f8551c8f899eb01d6cdd40262ecc820ef76b2f6ac152916c",
+      "title": "Terminologies - FHIR v5.0.0",
+      "chars": 40191
+    },
+    {
+      "key": "terminology-module",
+      "url": "https://hl7.org/fhir/R5/terminology-module.html",
+      "final_url": "https://hl7.org/fhir/R5/terminology-module.html",
+      "bytes": 24337,
+      "sha256": "8c8650e79834a6adbd4080687f173d9d7be669e0e74cdee4b13f80d281fbf9d2",
+      "title": "Terminology-module - FHIR v5.0.0",
+      "chars": 3137
+    },
+    {
+      "key": "terminology-service",
+      "url": "https://hl7.org/fhir/R5/terminology-service.html",
+      "final_url": "https://hl7.org/fhir/R5/terminology-service.html",
+      "bytes": 85857,
+      "sha256": "eaab7b1713aa65dd47dbea4e9f437c9b6573a42be534676fa9fa00c487d23823",
+      "title": "Terminology-service - FHIR v5.0.0",
+      "chars": 39237
+    },
+    {
+      "key": "testing",
+      "url": "https://hl7.org/fhir/R5/testing.html",
+      "final_url": "https://hl7.org/fhir/R5/testing.html",
+      "bytes": 139362,
+      "sha256": "ce789b9becc2dd5d00f4ccdb3de07ab9fcd519332e656a033685a914da495f1d",
+      "title": "Testing - FHIR v5.0.0",
+      "chars": 63903
+    },
+    {
+      "key": "validation",
+      "url": "https://hl7.org/fhir/R5/validation.html",
+      "final_url": "https://hl7.org/fhir/R5/validation.html",
+      "bytes": 30330,
+      "sha256": "5dc43ce22de0638281f6182e56a4bfe35729f28f744652bedf7c4e358d1afd0e",
+      "title": "Validation - FHIR v5.0.0",
+      "chars": 7419
+    },
+    {
+      "key": "valueset",
+      "url": "https://hl7.org/fhir/R5/valueset.html",
+      "final_url": "https://hl7.org/fhir/R5/valueset.html",
+      "bytes": 970834,
+      "sha256": "b8725749fd81893801b9c7584761c31c8855368677ffd1c7e6712b44a021a7a3",
+      "title": "ValueSet - FHIR v5.0.0",
+      "chars": 114715
+    },
+    {
+      "key": "versioning",
+      "url": "https://hl7.org/fhir/R5/versioning.html",
+      "final_url": "https://hl7.org/fhir/R5/versioning.html",
+      "bytes": 26884,
+      "sha256": "3c49ee99ec63b86dcc5d915b1057146946c27193619302d97184b19474ef6a85",
+      "title": "Versioning - FHIR v5.0.0",
+      "chars": 8746
+    },
+    {
+      "key": "versions",
+      "url": "https://hl7.org/fhir/R5/versions.html",
+      "final_url": "https://hl7.org/fhir/R5/versions.html",
+      "bytes": 83826,
+      "sha256": "8a6ec0c107462990251bf24549600fcfaf08529aa1d950d2a80af63c41463954",
+      "title": "Versions - FHIR v5.0.0",
+      "chars": 45395
+    },
+    {
+      "key": "workflow",
+      "url": "https://hl7.org/fhir/R5/workflow.html",
+      "final_url": "https://hl7.org/fhir/R5/workflow.html",
+      "bytes": 41970,
+      "sha256": "a4895e464e7b0893be825edf54562e6e527ea91fafe19635f7d660fed586514f",
+      "title": "Workflow - FHIR v5.0.0",
+      "chars": 12536
+    },
+    {
+      "key": "workflow-module",
+      "url": "https://hl7.org/fhir/R5/workflow-module.html",
+      "final_url": "https://hl7.org/fhir/R5/workflow-module.html",
+      "bytes": 27870,
+      "sha256": "23cfd39db0bbc30c77769ad5d4f661245e7751136074a2ee1ba435925ed0cb2b",
+      "title": "Workflow-module - FHIR v5.0.0",
+      "chars": 7733
+    },
+    {
+      "key": "xml",
+      "url": "https://hl7.org/fhir/R5/xml.html",
+      "final_url": "https://hl7.org/fhir/R5/xml.html",
+      "bytes": 35238,
+      "sha256": "dd7e8dda4acb1de00147702ce8c121ed5205d23c88a3b0165f1e41e1b5284152",
+      "title": "Xml - FHIR v5.0.0",
+      "chars": 13481
+    },
+    {
+      "key": "ig-registry",
+      "url": "https://fhir.org/guides/registry/",
+      "final_url": "https://fhir.org/guides/registry/",
+      "bytes": 7105,
+      "sha256": "1550031b6fee5c728345635e2d7c6a66f97f4afb5801d92adf78d71695f3d70e",
+      "title": "Implementation Guide Registry",
+      "chars": 1201
+    },
+    {
+      "key": "smart",
+      "url": "https://hl7.org/fhir/smart-app-launch/",
+      "final_url": "https://hl7.org/fhir/smart-app-launch/",
+      "bytes": 40410,
+      "sha256": "74f0778857be28b11dc7ae139bc1b429668b1519b1374913fbd8ed04b15475a2",
+      "title": "Overview - SMART App Launch v2.2.0",
+      "chars": 7351
+    },
+    {
+      "key": "bulk",
+      "url": "https://hl7.org/fhir/uv/bulkdata/",
+      "final_url": "https://hl7.org/fhir/uv/bulkdata/",
+      "bytes": 775,
+      "sha256": "b00afce0ea8fdc5f5aac5293b7ae336be4d4b1f2fc915dade5c87479e25fe2c2",
+      "title": "bulk",
+      "chars": 234
+    },
+    {
+      "key": "extensions",
+      "url": "https://hl7.org/fhir/extensions/",
+      "final_url": "https://hl7.org/fhir/extensions/",
+      "bytes": 63907,
+      "sha256": "cf2eb470cc811ee3e11c681f888b6e50248d3c06eb2d0ec75e865a069159a93e",
+      "title": "HL7.FHIR.UV.EXTENSIONS\\Home Page - FHIR v5.0.0",
+      "chars": 14080
+    },
+    {
+      "key": "fhir-tools",
+      "url": "https://build.fhir.org/ig/FHIR/ig-guidance/",
+      "final_url": "https://build.fhir.org/ig/FHIR/ig-guidance/",
+      "bytes": 44846,
+      "sha256": "54eb98972bb8ecc61117692ca78fcb9a2b457722716ffebffbdca30560dc2596",
+      "title": "IG Home Page - Guidance for FHIR IG Creation v0.1.0",
+      "chars": 7530
+    },
+    {
+      "key": "us-core",
+      "url": "https://hl7.org/fhir/us/core/",
+      "final_url": "https://hl7.org/fhir/us/core/",
+      "bytes": 78656,
+      "sha256": "e850adde4bbc7c3d3a4eb15b37a98d47b418e674d21dfe8c41dc04bd92404592",
+      "title": "Home - US Core Implementation Guide v9.0.0",
+      "chars": 12380
+    },
+    {
+      "key": "sdc",
+      "url": "https://hl7.org/fhir/uv/sdc/",
+      "final_url": "https://hl7.org/fhir/uv/sdc/",
+      "bytes": 768,
+      "sha256": "5057a7c09b98923cd89c101c0151fd5bd2244bec226d50ca78ba336ba517aba2",
+      "title": "sdc",
+      "chars": 232
+    },
+    {
+      "key": "ips",
+      "url": "https://hl7.org/fhir/uv/ips/",
+      "final_url": "https://hl7.org/fhir/uv/ips/",
+      "bytes": 787,
+      "sha256": "81c391eaa9d41ef4d6936e536d4d4c07d2d976b30b6e8d832d569d627c2c37d0",
+      "title": "ips",
+      "chars": 251
+    },
+    {
+      "key": "subscriptions-backport",
+      "url": "https://hl7.org/fhir/uv/subscriptions-backport/",
+      "final_url": "https://hl7.org/fhir/uv/subscriptions-backport/",
+      "bytes": 23354,
+      "sha256": "eba98258c61debe92d1dcab67597b4fab15859a654cd00663daf251d220e79fd",
+      "title": "HL7.FHIR.UV.SUBSCRIPTIONS-BACKPORT\\Home - FHIR v4.3.0",
+      "chars": 7028
+    },
+    {
+      "key": "fsh",
+      "url": "https://hl7.org/fhir/uv/shorthand/",
+      "final_url": "https://hl7.org/fhir/uv/shorthand/",
+      "bytes": 39202,
+      "sha256": "12becb37b60ee0bfa68915cc3f5fac48f489126589e293700c0954fec2d0b804",
+      "title": "FHIR Shorthand - FHIR Shorthand v3.0.0",
+      "chars": 12713
+    },
+    {
+      "key": "validator",
+      "url": "https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator",
+      "error": "HTTP Error 405: Not Allowed"
+    }
+  ]
+}

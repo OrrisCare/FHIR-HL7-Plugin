@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Validation and Review"
+  short_description: "FHIR Validation and Review guidance for agents"
+  default_prompt: "Use $fhir-validation to help with my FHIR task using the correct release and authoritative sources."

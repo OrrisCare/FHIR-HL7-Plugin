@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Migration and Mapping"
+  short_description: "FHIR Migration and Mapping guidance for agents"
+  default_prompt: "Use $fhir-migration to help with my FHIR task using the correct release and authoritative sources."

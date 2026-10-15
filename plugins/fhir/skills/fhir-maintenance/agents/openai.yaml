@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Standards Maintenance"
+  short_description: "FHIR Standards Maintenance guidance for agents"
+  default_prompt: "Use $fhir-maintenance to help with my FHIR task using the correct release and authoritative sources."

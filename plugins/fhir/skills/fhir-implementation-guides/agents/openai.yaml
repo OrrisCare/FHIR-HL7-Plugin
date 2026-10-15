@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Implementation Guides"
+  short_description: "FHIR Implementation Guides guidance for agents"
+  default_prompt: "Use $fhir-implementation-guides to help with my FHIR task using the correct release and authoritative sources."

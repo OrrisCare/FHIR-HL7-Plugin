@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR APIs and Search"
+  short_description: "FHIR APIs and Search guidance for agents"
+  default_prompt: "Use $fhir-api to help with my FHIR task using the correct release and authoritative sources."

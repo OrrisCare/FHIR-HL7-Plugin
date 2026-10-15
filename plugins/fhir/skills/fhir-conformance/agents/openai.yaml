@@ -1,0 +1,4 @@
+interface:
+  display_name: "FHIR Profiles and Extensions"
+  short_description: "FHIR Profiles and Extensions guidance for agents"
+  default_prompt: "Use $fhir-conformance to help with my FHIR task using the correct release and authoritative sources."

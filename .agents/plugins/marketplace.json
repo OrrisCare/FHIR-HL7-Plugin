@@ -1,0 +1,20 @@
+{
+  "name": "orris-fhir",
+  "interface": {
+    "displayName": "Orris FHIR Standards"
+  },
+  "plugins": [
+    {
+      "name": "fhir",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fhir"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

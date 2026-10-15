@@ -1,0 +1,491 @@
+{
+  "package-id": "hl7.fhir.core",
+  "title": "FHIR Specification",
+  "description": "FHIR Specification",
+  "canonical": "http://hl7.org/fhir",
+  "introduction": "This table provides a list of all the versions of FHIR (Fast Health Interoperability Resources) that are available. See also the directory of [FHIR Implementation Guides](http://fhir.org/guides/registry).",
+  "footnote": "Note: Subsequent to Sept 2013, the FHIR version policy was changed.",
+  "kind": "fhir.core",
+  "list": [
+    {
+      "version": "current",
+      "date": "n/a",
+      "desc": "Current Development build (about 30min behind version control, may be incoherent and change rapidly)",
+      "path": "http://build.fhir.org",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "6.0.0-snapshot1",
+      "date": "2026-07-17",
+      "desc": "FHIR R6 Stable (Sept 2026)",
+      "path": "http://hl7.org/fhir/6.0.0-snapshot1",
+      "status": "draft",
+      "sequence": "R6",
+      "fhirversion": "6.0.0-snapshot1",
+      "sub-packages": [
+        "hl7.fhir.r6.core",
+        "hl7.fhir.r6.expansions",
+        "hl7.fhir.r6.examples",
+        "hl7.fhir.r6.search"
+      ]
+    },
+    {
+      "version": "6.0.0-ballot5",
+      "date": "2026-07-17",
+      "desc": "FHIR R6 Ballot (2nd Full Ballot)",
+      "path": "http://hl7.org/fhir/6.0.0-ballot5",
+      "status": "draft",
+      "sequence": "R6",
+      "fhirversion": "6.0.0-ballot5",
+      "sub-packages": [
+        "hl7.fhir.r6.core",
+        "hl7.fhir.r6.expansions",
+        "hl7.fhir.r6.examples",
+        "hl7.fhir.r6.search"
+      ]
+    },
+    {
+      "version": "6.0.0-ballot4",
+      "date": "2025-12-18",
+      "desc": "FHIR R6 Ballot (1st Full Ballot)",
+      "path": "http://hl7.org/fhir/6.0.0-ballot4",
+      "status": "draft",
+      "sequence": "R6",
+      "fhirversion": "6.0.0-ballot4",
+      "sub-packages": [
+        "hl7.fhir.r6.core",
+        "hl7.fhir.r6.expansions",
+        "hl7.fhir.r6.examples",
+        "hl7.fhir.r6.search"
+      ]
+    },
+    {
+      "version": "6.0.0-ballot3",
+      "date": "2025-04-03",
+      "desc": "FHIR R6 Ballot (3rd Draft)",
+      "path": "http://hl7.org/fhir/6.0.0-ballot3",
+      "status": "draft",
+      "sequence": "R6",
+      "fhirversion": "6.0.0-ballot3",
+      "sub-packages": [
+        "hl7.fhir.r6.core",
+        "hl7.fhir.r6.expansions",
+        "hl7.fhir.r6.examples",
+        "hl7.fhir.r6.search"
+      ]
+    },
+    {
+      "version": "6.0.0-ballot2",
+      "date": "2024-08-13",
+      "desc": "FHIR R6 Ballot (2nd Draft)",
+      "path": "http://hl7.org/fhir/6.0.0-ballot2",
+      "status": "draft",
+      "sequence": "R6",
+      "fhirversion": "6.0.0-ballot2",
+      "sub-packages": [
+        "hl7.fhir.r6.core",
+        "hl7.fhir.r6.expansions",
+        "hl7.fhir.r6.examples",
+        "hl7.fhir.r6.search"
+      ]
+    },
+    {
+      "version": "6.0.0-ballot1",
+      "date": "2023-12-19",
+      "desc": "FHIR R6 Ballot (1st Draft)",
+      "path": "http://hl7.org/fhir/6.0.0-ballot1",
+      "status": "draft",
+      "sequence": "R6",
+      "fhirversion": "6.0.0-ballot1",
+      "sub-packages": [
+        "hl7.fhir.r6.core",
+        "hl7.fhir.r6.expansions",
+        "hl7.fhir.r6.examples",
+        "hl7.fhir.r6.search"
+      ]
+    },
+    {
+      "version": "5.0.0",
+      "date": "2023-03-26",
+      "desc": "FHIR Release #5",
+      "path": "http://hl7.org/fhir/R5",
+      "status": "trial-use",
+      "sequence": "R5",
+      "fhirversion": "5.0.0",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions",
+        "hl7.fhir.r5.examples",
+        "hl7.fhir.r5.search"
+      ],
+      "current": true
+    },
+    {
+      "version": "5.0.0-draft-final",
+      "date": "2023-03-01",
+      "desc": "FHIR Release #5 Final QA",
+      "path": "http://hl7.org/fhir/5.0.0-draft-final",
+      "status": "draft",
+      "sequence": "R5",
+      "fhirversion": "5.0.0-draft-final",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions",
+        "hl7.fhir.r5.examples",
+        "hl7.fhir.r5.search"
+      ]
+    },
+    {
+      "version": "5.0.0-snapshot3",
+      "date": "2022-12-14",
+      "desc": "FHIR Release #5 Connectathon 32 Base",
+      "path": "http://hl7.org/fhir/5.0.0-snapshot3",
+      "status": "draft",
+      "sequence": "R5",
+      "fhirversion": "5.0.0-snapshot3",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions",
+        "hl7.fhir.r5.examples"
+      ]
+    },
+    {
+      "version": "5.0.0-ballot",
+      "date": "2022-09-10",
+      "desc": "FHIR Release #5: Ballot",
+      "path": "http://hl7.org/fhir/2022Sep",
+      "status": "ballot",
+      "sequence": "R5",
+      "fhirversion": "5.0.0-ballot",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions",
+        "hl7.fhir.r5.examples"
+      ]
+    },
+    {
+      "version": "5.0.0-snapshot1",
+      "date": "2021-12-19",
+      "desc": "FHIR Release #5: Snapshot #1 (Jan 2022 Connectathon)",
+      "path": "http://hl7.org/fhir/5.0.0-snapshot1",
+      "status": "draft",
+      "sequence": "R5",
+      "fhirversion": "5.0.0-snapshot1",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions",
+        "hl7.fhir.r5.examples"
+      ]
+    },
+    {
+      "version": "4.6.0",
+      "date": "2021-04-15",
+      "desc": "FHIR Release #5: Draft Ballot",
+      "path": "http://hl7.org/fhir/2021May",
+      "status": "draft",
+      "sequence": "R5",
+      "fhirversion": "4.6.0",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions",
+        "hl7.fhir.r5.examples"
+      ]
+    },
+    {
+      "version": "4.5.0",
+      "date": "2020-08-20",
+      "desc": "FHIR Release #5: Preview #3",
+      "path": "http://hl7.org/fhir/2020Sep",
+      "status": "draft",
+      "sequence": "R5",
+      "fhirversion": "4.5.0",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions",
+        "hl7.fhir.r5.examples"
+      ]
+    },
+    {
+      "version": "4.4.0",
+      "date": "2020-05-04",
+      "desc": "FHIR Release #5: Preview #2",
+      "path": "http://hl7.org/fhir/2020May",
+      "status": "draft",
+      "sequence": "R5",
+      "fhirversion": "4.4.0",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions"
+      ]
+    },
+    {
+      "version": "4.2.0",
+      "date": "2019-12-31",
+      "desc": "FHIR Release #5: Preview #1",
+      "path": "http://hl7.org/fhir/2020Feb",
+      "status": "draft",
+      "sequence": "R5",
+      "fhirversion": "4.2.0",
+      "sub-packages": [
+        "hl7.fhir.r5.core",
+        "hl7.fhir.r5.expansions"
+      ]
+    },
+    {
+      "version": "4.3.0",
+      "date": "2022-05-28",
+      "desc": "FHIR Release #4B",
+      "path": "http://hl7.org/fhir/R4B",
+      "status": "trial-use",
+      "sequence": "R4B",
+      "fhirversion": "4.3.0",
+      "sub-packages": [
+        "hl7.fhir.r4b.core",
+        "hl7.fhir.r4b.examples",
+        "hl7.fhir.r4b.expansions",
+        "hl7.fhir.r4b.elements",
+        "hl7.fhir.r4b.corexml"
+      ]
+    },
+    {
+      "version": "4.3.0-snapshot1",
+      "date": "2021-12-20",
+      "desc": "FHIR Release #4B: Snapshot #1 - support for Jan 2022 Connectathon",
+      "path": "http://hl7.org/fhir/4.3.0-snapshot1",
+      "status": "draft",
+      "sequence": "R4B",
+      "fhirversion": "4.3.0-snapshot1",
+      "sub-packages": [
+        "hl7.fhir.r4b.core",
+        "hl7.fhir.r4b.examples",
+        "hl7.fhir.r4b.expansions",
+        "hl7.fhir.r4b.elements",
+        "hl7.fhir.r4b.corexml"
+      ]
+    },
+    {
+      "version": "4.1.0",
+      "date": "2021-03-11",
+      "desc": "FHIR Release #R4B: Ballot #1",
+      "path": "http://hl7.org/fhir/2021Mar",
+      "status": "draft",
+      "sequence": "R4B",
+      "fhirversion": "4.1.0",
+      "sub-packages": [
+        "hl7.fhir.r4b.core",
+        "hl7.fhir.r4b.expansions"
+      ]
+    },
+    {
+      "version": "4.0.1",
+      "date": "2019-10-30",
+      "desc": "FHIR Release #4: First Normative Content",
+      "descmd": "**FHIR Release #4** First Normative Content with 1 technical errata (Permanent Home)\r\n\r\n* *Technical Errata Archive (zip): [v4.0.0, as published Dec 27, 2018](http://hl7.org/fhir/R4-4.0.0.zip)*\r\n",
+      "path": "http://hl7.org/fhir/R4",
+      "status": "normative+trial-use",
+      "sequence": "R4",
+      "fhirversion": "4.0.1",
+      "sub-packages": [
+        "hl7.fhir.r4.core",
+        "hl7.fhir.r4.corexml",
+        "hl7.fhir.r4.examples",
+        "hl7.fhir.r4.expansions",
+        "hl7.fhir.r4.elements"
+      ]
+    },
+    {
+      "version": "3.5a.0",
+      "date": "2018-11-09",
+      "desc": "Special R4 Ballot #3 : Normative Packages for Terminology / Conformance + Observation",
+      "path": "http://hl7.org/fhir/2018Dec",
+      "status": "ballot",
+      "sequence": "R4",
+      "fhirversion": "3.5a.0"
+    },
+    {
+      "version": "3.5.0",
+      "date": "2018-08-21",
+      "desc": "R4 Ballot #2 : Mixed Normative/Trial use (Second Normative ballot + Baltimore Connectathon)",
+      "path": "http://hl7.org/fhir/2018Sep",
+      "status": "ballot",
+      "sequence": "R4",
+      "fhirversion": "3.5.0"
+    },
+    {
+      "version": "3.3.0",
+      "date": "2018-04-02",
+      "desc": "R4 Ballot #1 : Mixed Normative/Trial use (First Normative ballot)",
+      "path": "http://hl7.org/fhir/2018May",
+      "status": "ballot",
+      "sequence": "R4",
+      "fhirversion": "3.3.0"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2018-04-02",
+      "desc": "Draft for comment / First Candidate Normative Content",
+      "path": "http://hl7.org/fhir/2018Jan",
+      "status": "ballot",
+      "sequence": "R4",
+      "fhirversion": "3.2.0"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2019-10-24",
+      "desc": "Current Official Published Version (Currently: Release 3 with 2 technical errata)",
+      "descmd": "**FHIR Release 3** (STU) with 2 technical errata (Permanent Home)\r\n\r\n* *Technical Errata Archive (zip): [v3.0.1](http://hl7.org/fhir/STU3-3.0.1.zip)*\r\n* *Technical Errata Archive (zip): [v3.0.0](http://hl7.org/fhir/STU3-3.0.0.zip)*",
+      "path": "http://hl7.org/fhir/STU3",
+      "status": "trial-use",
+      "sequence": "STU 3",
+      "sub-packages": [
+        "hl7.fhir.r3.core",
+        "hl7.fhir.r3.corexml",
+        "hl7.fhir.r3.examples",
+        "hl7.fhir.r3.expansions",
+        "hl7.fhir.r3.elements"
+      ],
+      "fhirversion": "3.0.2"
+    },
+    {
+      "version": "1.8.0",
+      "date": "2016-12-06",
+      "desc": "FHIR STU3 Candidate + Connectathon 14 (San Antonio)",
+      "path": "http://hl7.org/fhir/2017Jan",
+      "status": "draft",
+      "sequence": "STU 3",
+      "fhirversion": "1.8.0"
+    },
+    {
+      "version": "1.6.0",
+      "date": "2016-08-11",
+      "desc": "FHIR STU3 Ballot + Connectathon 13 (Baltimore)",
+      "path": "http://hl7.org/fhir/2016Sep",
+      "status": "ballot",
+      "sequence": "STU 3",
+      "fhirversion": "1.6.0"
+    },
+    {
+      "version": "1.4.0",
+      "date": "2016-03-30",
+      "desc": "CQF on FHIR Ballot + Connectathon 12 (Montreal)",
+      "path": "http://hl7.org/fhir/2016May",
+      "status": "ballot",
+      "sequence": "STU 3",
+      "fhirversion": "1.4.0",
+      "sub-packages": [
+        "hl7.fhir.r2b.core",
+        "hl7.fhir.r2b.corexml",
+        "hl7.fhir.r2b.examples",
+        "hl7.fhir.r2b.expansions"
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2015-12-11",
+      "desc": "Draft for comment",
+      "path": "http://hl7.org/fhir/2016Jan",
+      "status": "draft",
+      "sequence": "STU 3",
+      "fhirversion": "1.2.0"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2015-12-03",
+      "desc": "GAO Ballot + draft changes to main FHIR standard",
+      "path": "http://hl7.org/fhir/2015Dec",
+      "status": "ballot",
+      "sequence": "STU 3",
+      "fhirversion": "1.1.0"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2015-10-24",
+      "descmd": "**DSTU 2 (Official version)** with 1 technical errata (Permanent home)",
+      "path": "http://hl7.org/fhir/DSTU2",
+      "status": "trial-use",
+      "sequence": "DSTU 2",
+      "fhirversion": "1.0.2",
+      "sub-packages": [
+        "hl7.fhir.r2.core",
+        "hl7.fhir.r2.corexml",
+        "hl7.fhir.r2.examples",
+        "hl7.fhir.r2.expansions",
+        "hl7.fhir.r2.elements"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2015-08-31",
+      "desc": "DSTU 2 QA Preview + CQIF Ballot (Sep 2015)",
+      "path": "http://hl7.org/fhir/2015Sep",
+      "status": "ballot",
+      "sequence": "DSTU 2"
+    },
+    {
+      "version": "0.5.0",
+      "date": "2015-04-02",
+      "desc": "DSTU 2 Ballot version (May 2015 Ballot)",
+      "path": "http://hl7.org/fhir/2015May",
+      "status": "ballot",
+      "sequence": "DSTU 2"
+    },
+    {
+      "version": "0.4.0",
+      "date": "2014-12-12",
+      "desc": "Draft For Comment (January 2015 Ballot)",
+      "path": "http://hl7.org/fhir/2015Jan",
+      "status": "draft",
+      "sequence": "DSTU 2"
+    },
+    {
+      "version": "0.0.82",
+      "date": "2014-09-30",
+      "descmd": "**DSTU 1 (Official version)** with 2 technical errata (Permanent home)",
+      "path": "http://hl7.org/fhir/DSTU1",
+      "status": "trial-use",
+      "sequence": "DSTU 1"
+    },
+    {
+      "version": "0.11",
+      "date": "2013-09-01",
+      "desc": "DSTU 1 Ballot version",
+      "path": "http://hl7.org/fhir/2013Sep",
+      "status": "ballot",
+      "sequence": "DSTU 1"
+    },
+    {
+      "version": "0.06",
+      "date": "2012-12-04",
+      "desc": "2nd Draft for Comment (January 2013 Ballot)",
+      "path": "http://hl7.org/fhir/2013Jan",
+      "status": "ballot",
+      "sequence": "DSTU 1"
+    },
+    {
+      "version": "0.05",
+      "date": "2012-09-09",
+      "desc": "1st Draft for Comment (Sept 2012 Ballot)",
+      "path": "http://hl7.org/fhir/2012Sep",
+      "status": "draft",
+      "sequence": "DSTU 1"
+    },
+    {
+      "version": "0.01",
+      "date": "2012-05-14",
+      "desc": "First version labelled as `FHIR`",
+      "path": "http://hl7.org/fhir/2012May",
+      "status": "draft",
+      "sequence": "Historical Archive"
+    },
+    {
+      "version": "0.00",
+      "date": "2011-09",
+      "desc": "Original Proposal, labelled as RfH",
+      "path": "http://hl7.org/fhir/2011Aug",
+      "status": "draft",
+      "sequence": "Historical Archive"
+    }
+  ],
+  "category": "??"
+}
