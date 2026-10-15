@@ -1,0 +1,16 @@
+{
+  "name": "orris-fhir",
+  "owner": {
+    "name": "Orris Care, Inc."
+  },
+  "metadata": {
+    "description": "FHIR standards skills by Orris"
+  },
+  "plugins": [
+    {
+      "name": "fhir",
+      "source": "./plugins/fhir",
+      "description": "Version-aware HL7 FHIR implementation skills and an authoritative documentation index by Orris."
+    }
+  ]
+}

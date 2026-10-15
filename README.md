@@ -6,6 +6,52 @@ An independent, version-aware HL7 FHIR reference plugin for coding agents. It he
 
 The baseline was checked on **October 15, 2026**: **R5 / 5.0.0** is HL7's current published release. **R6 / 6.0.0-snapshot1** is newer preview content, still marked draft in HL7's publication history. Existing R4/R4B projects retain their required contracts.
 
+## Install with one prompt
+
+Copy this into your agent:
+
+```text
+Install FHIR by Orris from https://github.com/OrrisCare/FHIR-HL7-Plugin.
+Read https://raw.githubusercontent.com/OrrisCare/FHIR-HL7-Plugin/main/INSTALL.md
+and follow the route for this agent and its actual capabilities. Use the
+native plugin manager when supported; otherwise install the complete skill
+set or the self-contained fhir-suite bundle into the appropriate skill
+folder. Confirm the target if you cannot determine it. Preserve existing
+skills and settings, inspect any installer before running it, and verify
+the result. Report the installed version, scope, and any reload step.
+If this chat cannot install persistent skills, give me the supported import
+steps instead of claiming it is installed. This package has no MCP server.
+```
+
+Download version 1.1.0: [native plugin ZIP](https://github.com/OrrisCare/FHIR-HL7-Plugin/releases/download/v1.1.0/fhir-1.1.0.zip) · [self-contained skill ZIP](https://github.com/OrrisCare/FHIR-HL7-Plugin/releases/download/v1.1.0/fhir-suite-1.1.0.zip).
+
+An agent with the required filesystem/plugin tools can carry out the installation. A plain web chat may need a supported skill/ZIP importer or a manual step. See [INSTALL.md](INSTALL.md) for the complete agent-readable procedure.
+
+| Agent | Easiest supported route |
+| --- | --- |
+| Codex | Git marketplace; commands below |
+| Claude Code | `/plugin marketplace add OrrisCare/FHIR-HL7-Plugin`, then `/plugin install fhir@orris-fhir` |
+| Cursor | Copy all skills into `.cursor/skills`, or import the repository through a team marketplace |
+| Hermes | `hermes skills install OrrisCare/FHIR-HL7-Plugin/skills/fhir-suite` |
+| OpenClaw | Clone the repo, then `openclaw skills install ./skills/fhir-suite` from the checkout |
+| Claude.ai / other custom-skill importers | Import the self-contained `fhir-suite` ZIP using the product's supported interface |
+| Other Agent Skills hosts | Use the copy helper with a confirmed skills directory; see INSTALL.md |
+
+The native plugin exposes **16 skills**. The self-contained distribution exposes **one skill with all 16 workflows and references inside it**, so single-skill installers do not lose dependencies. Choose one distribution per scope.
+
+### Manual skill installation
+
+From a clone of this repository, use Python 3.10+ and an explicit destination:
+
+```sh
+python3 tools/install_skills.py --dest /absolute/path/to/project/.cursor/skills --dry-run
+python3 tools/install_skills.py --dest /absolute/path/to/project/.cursor/skills
+```
+
+Add `--bundle` for the single-skill form. The helper makes no network calls, checks every collision before copying, preserves unrelated files, and refuses to overwrite a differing installation. For updates, use the native manager or stage/compare/back up a manual installation as described in INSTALL.md.
+
+**Marketplace availability:** this repository is usable as a Codex/Claude Code Git marketplace and a Cursor team marketplace, and as a Hermes GitHub skill source. Curated public listings require separate submission/approval; none is implied by these manifests. See [marketplace publication steps](docs/MARKETPLACES.md).
+
 ## Install in Codex
 
 In **Plugins → Add → Add plugin marketplace**, enter:
@@ -52,7 +98,7 @@ Examples: “Review our FHIR transaction handling”; “Create a profile for ou
 
 ## Design and scope
 
-Each skill contains actionable workflow guidance and links to versioned primary sources. A shared module/resource map supplies full core navigation; larger machine-readable indexes load only when searched. A Python 3.10+ helper can search the indexes offline, but Python is optional for reading the skills and following documentation links. There are no MCP servers, hooks, credentials, telemetry or runtime service dependencies.
+Each skill contains actionable workflow guidance and links to versioned primary sources. A shared module/resource map supplies full core navigation; larger machine-readable indexes load only when searched. A Python 3.10+ helper can search the indexes offline, but Python is optional for reading the skills and following documentation links. There are no MCP servers, hooks, credentials, telemetry or runtime service dependencies. Native skill invocation syntax varies by host; the `$fhir-standards` example above is for Codex. In the self-contained distribution, select `fhir-suite`.
 
 The indexes cover the official R5 TOC document's HTML targets and every entry in the R5 core package index. This is not a copy or manual review of every specification page. External guides and terminology releases are discovered through their official registries and pinned per task. R4/R4B/R6 full catalogs are not bundled. See [coverage and provenance](plugins/fhir/skills/fhir-standards/references/coverage.md).
 
@@ -65,7 +111,9 @@ From the repository root:
 ```sh
 python3 tools/validate.py
 python3 -m unittest discover -s tests -v
-python3 tools/package.py dist/fhir-1.0.0.zip
+python3 tools/sync_distribution.py --check
+python3 tools/package.py dist/fhir-1.1.0.zip
+python3 tools/package_suite.py dist/fhir-suite-1.1.0.zip
 python3 plugins/fhir/skills/fhir-standards/scripts/lookup.py Observation --kind resources
 python3 tools/build_indexes.py --out /tmp/fhir-r5-candidate
 ```

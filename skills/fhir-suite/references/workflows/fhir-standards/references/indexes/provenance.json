@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-10-15T12:11:09.186941+00:00",
+  "release": "5.0.0",
+  "sources": [
+    {
+      "url": "https://hl7.org/fhir/R5/toc.html",
+      "sha256": "4a1b1c2b9a5c93ad7511778c46869668a78e0481aef688300ed1b262f802b61c",
+      "bytes": 3216665
+    },
+    {
+      "url": "https://hl7.org/fhir/R5/hl7.fhir.r5.core.tgz",
+      "sha256": "74b27cd1bfce9e80eaceac431edf230b0945a443564fbf5512f82e5fa50a80d4",
+      "bytes": 17057450
+    },
+    {
+      "url": "https://hl7.org/fhir/package-list.json",
+      "sha256": "b64f000d6a8a74ab47f909c3b03d0e18e6aa1be018c2a7da5cfd21d0d5fd9ef4",
+      "bytes": 14483
+    }
+  ],
+  "counts": {
+    "pages": 3173,
+    "resources": 162,
+    "artifacts": 2968
+  },
+  "artifact_types": {
+    "CapabilityStatement": 6,
+    "CodeSystem": 448,
+    "CompartmentDefinition": 6,
+    "ConceptMap": 94,
+    "GraphDefinition": 1,
+    "ImplementationGuide": 2,
+    "MessageDefinition": 3,
+    "NamingSystem": 4,
+    "OperationDefinition": 61,
+    "SearchParameter": 1244,
+    "StructureDefinition": 307,
+    "StructureMap": 2,
+    "TerminologyCapabilities": 2,
+    "ValueSet": 788
+  },
+  "scope": "R5 TOC HTML targets and all entries in the official R5 core package index. Index inclusion is not a live-link or semantic-conformance check."
+}

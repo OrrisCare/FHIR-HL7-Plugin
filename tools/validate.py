@@ -62,6 +62,22 @@ def validate():
     check(all(r["url"].startswith("https://hl7.org/fhir/R5/") for r in data["pages"]), "Non-R5 documentation in R5 page index")
     pages = {r["url"] for r in data["pages"]}
     check(all(r["url"] in pages for r in data["resources"]), "Resource page missing from TOC index")
+    for host in ("claude", "cursor"):
+        native = json.loads((PLUGIN / f".{host}-plugin/plugin.json").read_text())
+        catalog = json.loads((ROOT / f".{host}-plugin/marketplace.json").read_text())
+        check(native["name"] == manifest["name"] and native["version"] == manifest["version"], f"{host} manifest mismatch")
+        check((ROOT / catalog["plugins"][0]["source"]).resolve() == PLUGIN, f"{host} marketplace source mismatch")
+        check(native["skills"] == "./skills", f"{host} skill path mismatch")
+    suite = ROOT / "skills/fhir-suite"
+    check(len(list(suite.rglob("SKILL.md"))) == 1, "Suite must expose exactly one skill")
+    check(len(list(suite.rglob("GUIDE.md"))) == 16, "Suite must preserve all 16 workflows")
+    check(json.loads((suite / "distribution.json").read_text())["version"] == manifest["version"], "Suite version mismatch")
+    for path in suite.rglob("*.md"):
+        for target in re.findall(r"\]\(([^)]+)\)", path.read_text()):
+            if target.startswith(("https://", "http://", "#")):
+                continue
+            resolved = (path.parent / target.split("#")[0]).resolve()
+            check(resolved.is_relative_to(suite.resolve()) and resolved.is_file(), f"Broken or escaping suite reference: {path}: {target}")
     for path in PLUGIN.rglob("*"):
         check(not path.is_symlink(), f"Symlink in portable package: {path}")
     return errors
@@ -72,4 +88,4 @@ if __name__ == "__main__":
     if problems:
         print("\n".join(problems), file=sys.stderr)
         sys.exit(1)
-    print("PASS: manifests, marketplace path, 16 skills, local links, metadata and R5 index invariants")
+    print("PASS: manifests, marketplace path, 16 skills, portable suite, local links, metadata and R5 index invariants")
